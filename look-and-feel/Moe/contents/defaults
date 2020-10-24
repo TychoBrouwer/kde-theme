@@ -8,7 +8,7 @@ ColorScheme=Moe
 widgetStyle=kvantum
 
 [kdeglobals][Icons]
-Theme=McMojave-circle-blue
+Theme=Reversal-red
 
 [kwinrc][DesktopSwitcher]
 LayoutName=org.kde.breeze.desktop
@@ -17,8 +17,8 @@ LayoutName=org.kde.breeze.desktop
 LayoutName=preview_stack
 
 [kwinrc][org.kde.kdecoration2]
-library=org.kde.sierrabreeze
-theme=Brisa
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Moe
 
 [plasmarc][Theme]
 name=Moe
