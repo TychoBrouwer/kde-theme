@@ -113,7 +113,7 @@ frame.left=4
 frame.right=4
 interior=true
 interior.element=button
-indicator.size=8
+indicator.size=12
 text.normal.color=#cfd8dc
 text.focus.color=white
 text.press.color=#cfd8dc
@@ -372,17 +372,17 @@ indicator.size=48
 
 [Scrollbar]
 inherits=PanelButtonCommand
-indicator.element=arrow
-indicator.size=8
+indicator.size=0
+interior=false
+frame=false
 
 [ScrollbarSlider]
 inherits=PanelButtonCommand
-interior.element=scrollbarslider
 interior=true
-frame=false
-indicator.element=grip
-indicator.size=13
-frame.expansion=48
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
 
 [ScrollbarGroove]
 inherits=PanelButtonCommand

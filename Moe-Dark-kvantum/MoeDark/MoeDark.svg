@@ -12,8 +12,8 @@
    width="450"
    height="1000"
    version="1"
-   sodipodi:docname="MoeDark.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   sodipodi:docname="MoeDarkdev.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
      id="metadata1032">
     <rdf:RDF>
@@ -35,16 +35,17 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1055"
+     inkscape:window-height="1057"
      id="namedview1030"
      showgrid="false"
-     inkscape:zoom="2.6700352"
-     inkscape:cx="219.86319"
-     inkscape:cy="148.77391"
+     inkscape:zoom="7.552"
+     inkscape:cx="355.43042"
+     inkscape:cy="497.10284"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="svg2"
+     inkscape:document-rotation="0" />
   <defs
      id="defs5">
     <linearGradient
@@ -1041,7 +1042,7 @@
        x2="274"
        y2="542.362"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.8335436,0,0,0.83355553,44.110838,92.173151)" />
+       gradientTransform="matrix(0.8335436,0,0,0.83355553,44.110838,90.473051)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1945"
@@ -2827,27 +2828,6 @@
      x="15"
      y="728"
      style="fill:#ff5858;fill-rule:evenodd;stroke:none;stroke-width:1.64900005;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1" />
-  <rect
-     id="scrollbarslider-normal"
-     width="7.5"
-     height="12.5"
-     x="10"
-     y="894.5"
-     style="fill:#c2c5c7;stroke:none;stroke-width:2" />
-  <rect
-     id="scrollbarslider-focused"
-     width="7.5"
-     height="12.5"
-     x="17.5"
-     y="894.5"
-     style="fill:#a4a9ac;stroke:none;stroke-width:2" />
-  <rect
-     id="scrollbarslider-pressed"
-     width="7.5"
-     height="12.5"
-     x="25"
-     y="894.5"
-     style="fill:#263238;stroke:none;stroke-width:2" />
   <g
      id="button-normal-bottomleft"
      transform="translate(0,19.99994)"
@@ -6084,7 +6064,7 @@
        id="4176"
        cx="265"
        cy="542.362"
-       style="opacity:1;fill:url(#linearGradient1931);fill-opacity:1;stroke:none;stroke-width:0.81274331;stroke-miterlimit:4;stroke-dasharray:none"
+       style="opacity:1;fill:url(#linearGradient1931);fill-opacity:1;stroke:none;stroke-width:0.812743;stroke-miterlimit:4;stroke-dasharray:none"
        rx="6.5019999"
        ry="6.5018926" />
     <rect
@@ -6125,12 +6105,12 @@
   <g
      style="enable-background:new"
      id="slidercursor-focused"
-     transform="translate(116,-60.261985)">
+     transform="translate(116,-58.361985)">
     <ellipse
        id="4176-3"
        cx="264.99988"
-       cy="544.26196"
-       style="opacity:1;fill:url(#linearGradient1939);fill-opacity:1;stroke:none;stroke-width:0.93774331;stroke-miterlimit:4;stroke-dasharray:none"
+       cy="542.56201"
+       style="opacity:1;fill:url(#linearGradient1939);fill-opacity:1;stroke:none;stroke-width:0.937743;stroke-miterlimit:4;stroke-dasharray:none"
        rx="7.5018926"
        ry="7.5019999" />
     <rect
@@ -6151,13 +6131,13 @@
          style="opacity:1;fill:#3b4048;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
          id="ath4176-2"
          cx="288"
-         cy="542.362"
+         cy="542.66217"
          r="8" />
       <circle
-         style="opacity:1;fill:#26292e;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.26666667"
+         style="opacity:1;fill:#26292e;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.266667"
          id="path5126"
          cx="288"
-         cy="542.362"
+         cy="542.56219"
          r="4" />
     </g>
     <rect
@@ -6443,5 +6423,446 @@
        y="-33"
        transform="rotate(90)"
        style="opacity:0.3;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <rect
+     style="opacity:1;fill:#c2c5c7;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.652791"
+     y="897.62579"
+     x="13.409091"
+     height="6.2499995"
+     width="0.68181819"
+     class="ColorScheme-Text"
+     id="scrollbarslider-normal-3" />
+  <g
+     transform="matrix(0.51136366,0,0,0.62499997,10.170454,893.25)"
+     id="scrollbarslider-normal-right">
+    <path
+       style="opacity:1;fill:#c2c5c7;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,7 v 10 h 4 V 7 Z"
+       class="ColorScheme-Text"
+       id="rect3838" />
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(1.3333333,0,0,1,-25.666667,-13)"
+       y="20"
+       x="29"
+       height="10"
+       width="1"
+       id="rect3856" />
+  </g>
+  <g
+     transform="matrix(0.51136366,0,0,0.46874998,10.170454,893.71875)"
+     id="scrollbarslider-normal-topright">
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(1.3333333,0,0,1.3333333,-25.666667,-18.333333)"
+       y="15"
+       x="26"
+       height="4"
+       width="4"
+       id="rect3852" />
+    <path
+       style="opacity:1;fill:#c2c5c7;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,3 v 4 h 4 C 13,4.784 11.216,3 9,3 Z"
+       class="ColorScheme-Text"
+       id="rect3840" />
+  </g>
+  <g
+     transform="matrix(0.51136366,0,0,0.46874998,10.170454,896.53125)"
+     id="scrollbarslider-normal-bottomright">
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(1.3333333,0,0,1.3333333,-25.666667,-24.333333)"
+       y="31"
+       x="26"
+       height="4"
+       width="4"
+       id="rect3862" />
+    <path
+       style="opacity:1;fill:#c2c5c7;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,21 v -4 h 4 c 0,2.216 -1.784,4 -4,4 z"
+       class="ColorScheme-Text"
+       id="path3871" />
+  </g>
+  <g
+     transform="matrix(-0.51136366,0,0,0.62499997,17.329546,893.25)"
+     id="scrollbarslider-normal-left">
+    <path
+       style="opacity:1;fill:#c2c5c7;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,7 v 10 h 4 V 7 Z"
+       class="ColorScheme-Text"
+       id="path3891" />
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(-1.3333333,0,0,1,39.666667,-13)"
+       y="20"
+       x="19"
+       height="10"
+       width="1"
+       id="rect3854" />
+  </g>
+  <g
+     transform="matrix(-0.51136366,0,0,0.46874998,17.329546,893.71875)"
+     id="scrollbarslider-normal-topleft">
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(-1.3333333,0,0,1.3333333,39.666667,-18.333333)"
+       y="15"
+       x="19"
+       height="4"
+       width="4"
+       id="rect3848" />
+    <path
+       style="opacity:1;fill:#c2c5c7;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,3 v 4 h 4 C 13,4.784 11.216,3 9,3 Z"
+       class="ColorScheme-Text"
+       id="path3895" />
+  </g>
+  <g
+     transform="matrix(-0.51136366,0,0,0.46874998,17.329546,896.53125)"
+     id="scrollbarslider-normal-bottomleft">
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(-1.3333333,0,0,1.3333333,39.666667,-24.333333)"
+       y="31"
+       x="19"
+       height="4"
+       width="4"
+       id="rect3858" />
+    <path
+       style="opacity:1;fill:#c2c5c7;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,21 v -4 h 4 c 0,2.216 -1.784,4 -4,4 z"
+       class="ColorScheme-Text"
+       id="path3901" />
+  </g>
+  <g
+     transform="matrix(0,-0.46874998,-0.06818182,0,14.568183,901.21875)"
+     id="scrollbarslider-normal-top">
+    <rect
+       style="opacity:0.01;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(0,-10,-1.3333333,0,34.333333,257)"
+       y="15"
+       x="24"
+       height="4"
+       width="1"
+       id="rect3850-9" />
+    <path
+       style="opacity:1;fill:#c2c5c7;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,7 v 10 h 4 V 7 Z"
+       class="ColorScheme-Text"
+       id="path3909" />
+  </g>
+  <g
+     transform="matrix(0,0.46874998,-0.06818182,0,14.568183,900.28125)"
+     id="scrollbarslider-normal-bottom">
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(0,-10,1.3333333,0,-32.333333,257)"
+       y="31"
+       x="24"
+       height="4"
+       width="1"
+       id="rect3860" />
+    <path
+       style="opacity:1;fill:#c2c5c7;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,7 v 10 h 4 V 7 Z"
+       class="ColorScheme-Text"
+       id="path3915" />
+  </g>
+  <rect
+     style="fill:#8f939d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.652791"
+     y="897.62579"
+     x="20.90909"
+     height="6.2499995"
+     width="0.68181819"
+     class="ColorScheme-ButtonHover"
+     id="scrollbarslider-focused-6" />
+  <g
+     transform="matrix(0.51136366,0,0,0.62499997,17.670455,893.25)"
+     id="scrollbarslider-focused-right">
+    <path
+       style="fill:#8f939d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,7 v 10 h 4 V 7 Z"
+       class="ColorScheme-ButtonHover"
+       id="rect3838-4" />
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(1.3333333,0,0,1,-25.666667,-35)"
+       y="42"
+       x="29"
+       height="10"
+       width="1"
+       id="rect3904" />
+  </g>
+  <g
+     transform="matrix(0.51136366,0,0,0.46874998,17.670455,893.71875)"
+     id="scrollbarslider-focused-topright">
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(1.3333333,0,0,1.3333333,-25.666667,-47.666667)"
+       y="37"
+       x="26"
+       height="4"
+       width="4"
+       id="rect3894" />
+    <path
+       style="fill:#8f939d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,3 v 4 h 4 C 13,4.784 11.216,3 9,3 Z"
+       class="ColorScheme-ButtonHover"
+       id="rect3840-2" />
+  </g>
+  <g
+     style="fill:#939393;fill-opacity:1"
+     transform="matrix(0.51136366,0,0,0.46874998,17.670455,896.53125)"
+     id="scrollbarslider-focused-bottomright">
+    <path
+       style="fill:#8f939d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,21 v -4 h 4 c 0,2.216 -1.784,4 -4,4 z"
+       class="ColorScheme-ButtonHover"
+       id="path3871-1" />
+    <rect
+       style="opacity:0;fill:#939393;fill-opacity:1;stroke:none"
+       transform="matrix(1.3333333,0,0,1.3333333,-25.666667,-53.666667)"
+       y="53"
+       x="26"
+       height="4"
+       width="4"
+       id="rect3908" />
+  </g>
+  <g
+     transform="matrix(-0.51136366,0,0,0.62499997,24.829546,893.25)"
+     id="scrollbarslider-focused-left">
+    <path
+       style="opacity:1;fill:#8f939d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,7 v 10 h 4 V 7 Z"
+       class="ColorScheme-ButtonHover"
+       id="path3891-9" />
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(-1.3333333,0,0,1,39.666667,-35)"
+       y="42"
+       x="19"
+       height="10"
+       width="1"
+       id="rect3902" />
+  </g>
+  <g
+     transform="matrix(-0.51136366,0,0,0.46874998,24.829546,893.71875)"
+     id="scrollbarslider-focused-topleft">
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(-1.3333333,0,0,1.3333333,39.666667,-47.666667)"
+       y="37"
+       x="19"
+       height="4"
+       width="4"
+       id="rect3880" />
+    <path
+       style="fill:#8f939d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,3 v 4 h 4 C 13,4.784 11.216,3 9,3 Z"
+       class="ColorScheme-ButtonHover"
+       id="path3895-2" />
+  </g>
+  <g
+     transform="matrix(-0.51136366,0,0,0.46874998,24.829546,896.53125)"
+     id="scrollbarslider-focused-bottomleft">
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(-1.3333333,0,0,1.3333333,39.666667,-53.666667)"
+       y="53"
+       x="19"
+       height="4"
+       width="4"
+       id="rect3890" />
+    <path
+       style="fill:#8f939d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,21 v -4 h 4 c 0,2.216 -1.784,4 -4,4 z"
+       class="ColorScheme-ButtonHover"
+       id="path3901-9" />
+  </g>
+  <g
+     transform="matrix(0,-0.46874998,-0.06818182,0,22.068184,901.21875)"
+     id="scrollbarslider-focused-top">
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(0,-10,-1.3333333,0,63.666667,257)"
+       y="37"
+       x="24"
+       height="4"
+       width="1"
+       id="rect3892" />
+    <path
+       style="fill:#8f939d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,7 v 10 h 4 V 7 Z"
+       class="ColorScheme-ButtonHover"
+       id="path3909-6" />
+  </g>
+  <g
+     transform="matrix(0,0.46874998,-0.06818182,0,22.068184,900.28125)"
+     id="scrollbarslider-focused-bottom">
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(0,-10,1.3333333,0,-61.666667,257)"
+       y="53"
+       x="24"
+       height="4"
+       width="1"
+       id="rect3906" />
+    <path
+       style="fill:#8f939d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,7 v 10 h 4 V 7 Z"
+       class="ColorScheme-ButtonHover"
+       id="path3915-6" />
+  </g>
+  <rect
+     style="fill:#ff6376;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.652791"
+     y="897.62512"
+     x="28.409092"
+     height="6.2499995"
+     width="0.68181819"
+     class="ColorScheme-ButtonHover"
+     id="scrollbarslider-pressed-7" />
+  <g
+     transform="matrix(0.51136366,0,0,0.62499997,25.170455,893.25)"
+     id="scrollbarslider-pressed-right">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ff6376;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,7 v 10 h 4 V 7 Z"
+       class="ColorScheme-ButtonHover"
+       id="rect3838-4-8" />
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(1.3333333,0,0,1,-25.666667,-57)"
+       y="64"
+       x="29"
+       height="10"
+       width="1"
+       id="rect3924" />
+  </g>
+  <g
+     transform="matrix(0.51136366,0,0,0.46874998,25.170455,893.71875)"
+     id="scrollbarslider-pressed-topright">
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(1.3333333,0,0,1.3333333,-25.666667,-77)"
+       y="59"
+       x="26"
+       height="4"
+       width="4"
+       id="rect3920" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ff6376;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,3 v 4 h 4 C 13,4.784 11.216,3 9,3 Z"
+       class="ColorScheme-ButtonHover"
+       id="rect3840-2-9" />
+  </g>
+  <g
+     transform="matrix(0.51136366,0,0,0.46874998,25.170455,896.53125)"
+     id="scrollbarslider-pressed-bottomright">
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(1.3333333,0,0,1.3333333,-25.666667,-83)"
+       y="75"
+       x="26"
+       height="4"
+       width="4"
+       id="rect3930" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ff6376;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,21 v -4 h 4 c 0,2.216 -1.784,4 -4,4 z"
+       class="ColorScheme-ButtonHover"
+       id="path3871-1-7" />
+  </g>
+  <g
+     transform="matrix(-0.51136366,0,0,0.62499997,32.329547,893.25)"
+     id="scrollbarslider-pressed-left">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ff6376;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,7 v 10 h 4 V 7 Z"
+       class="ColorScheme-ButtonHover"
+       id="path3891-9-4" />
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(-1.3333333,0,0,1,39.666667,-57)"
+       y="64"
+       x="19"
+       height="10"
+       width="1"
+       id="rect3922-5" />
+  </g>
+  <g
+     transform="matrix(-0.51136366,0,0,0.46874998,32.329547,893.71875)"
+     id="scrollbarslider-pressed-topleft">
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(-1.3333333,0,0,1.3333333,39.666667,-77)"
+       y="59"
+       x="19"
+       height="4"
+       width="4"
+       id="rect3916" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ff6376;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,3 v 4 h 4 C 13,4.784 11.216,3 9,3 Z"
+       class="ColorScheme-ButtonHover"
+       id="path3895-2-1" />
+  </g>
+  <g
+     transform="matrix(-0.51136366,0,0,0.46874998,32.329547,896.53125)"
+     id="scrollbarslider-pressed-bottomleft">
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(-1.3333333,0,0,1.3333333,39.666667,-83)"
+       y="75"
+       x="19"
+       height="4"
+       width="4"
+       id="rect3926" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ff6376;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,21 v -4 h 4 c 0,2.216 -1.784,4 -4,4 z"
+       class="ColorScheme-ButtonHover"
+       id="path3901-9-9" />
+  </g>
+  <g
+     transform="matrix(0,-0.46874998,-0.06818182,0,29.568183,901.21875)"
+     id="scrollbarslider-pressed-top">
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(0,-10,-1.3333333,0,93,257)"
+       y="59"
+       x="24"
+       height="4"
+       width="1"
+       id="rect3918" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ff6376;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,7 v 10 h 4 V 7 Z"
+       class="ColorScheme-ButtonHover"
+       id="path3909-6-1" />
+  </g>
+  <g
+     transform="matrix(0,0.46874998,-0.06818182,0,29.568183,900.28125)"
+     id="scrollbarslider-pressed-bottom">
+    <rect
+       style="opacity:0;fill:#e4e6e8;fill-opacity:1;stroke:none"
+       transform="matrix(0,-10,1.3333333,0,-91,257)"
+       y="75"
+       x="24"
+       height="4"
+       width="1"
+       id="rect3928" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ff6376;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 9,7 v 10 h 4 V 7 Z"
+       class="ColorScheme-ButtonHover"
+       id="path3915-6-3" />
   </g>
 </svg>
