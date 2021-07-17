@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="minimize.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    version="1.1"
    id="svg4428"
    height="29.866667"
-   width="119.46667">
+   width="119.46667"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs4430">
     <linearGradient
@@ -342,23 +342,24 @@
      inkscape:showpageshadow="false"
      showborder="false"
      inkscape:window-maximized="1"
-     inkscape:window-y="26"
+     inkscape:window-y="0"
      inkscape:window-x="0"
-     inkscape:window-height="1054"
+     inkscape:window-height="1057"
      inkscape:window-width="1920"
      inkscape:snap-bbox="true"
      showgrid="false"
      inkscape:current-layer="pressed-center"
      inkscape:document-units="px"
-     inkscape:cy="12.125756"
-     inkscape:cx="59.463679"
+     inkscape:cy="12.153398"
+     inkscape:cx="59.485361"
      inkscape:zoom="11.313708"
      inkscape:pageshadow="2"
      inkscape:pageopacity="1"
      borderopacity="1.0"
      bordercolor="#666666"
      pagecolor="#eff0f1"
-     id="base">
+     id="base"
+     inkscape:pagecheckerboard="0">
     <inkscape:grid
        spacingy="1.0666667"
        spacingx="1.0666667"
@@ -427,7 +428,8 @@
          x="157.19679"
          y="-493.94281"
          ry="35.920403"
-         id="path4186-7-3-3" />
+         id="path4186-7-3-3"
+         inkscape:label="path18" />
     </g>
     <g
        style="fill:#6b6b6b;fill-opacity:1"
@@ -465,7 +467,8 @@
          x="160.18333"
          height="71.840775"
          width="609.409"
-         style="display:inline;opacity:0.9;fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:104.618;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new" />
+         style="display:inline;opacity:0.9;fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:104.618;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         inkscape:label="path18-1" />
     </g>
     <g
        style="fill:#6b6b6b;fill-opacity:1"
