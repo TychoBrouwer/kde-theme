@@ -10,6 +10,9 @@ widgetStyle=kvantum
 [kdeglobals][Icons]
 Theme=Reversal-red
 
+[Wallpaper]
+Image=moe
+
 [kwinrc][DesktopSwitcher]
 LayoutName=org.kde.breeze.desktop
 
