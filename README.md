@@ -2,4 +2,4 @@
 
 Light theme, with blur transparencies and red tones with gradients.
 
-![alt text](https://i.imgur.com/tkuX89c.jpg)
+![alt text](https://cldup.com/aW0PwDLZk9.jpg)
