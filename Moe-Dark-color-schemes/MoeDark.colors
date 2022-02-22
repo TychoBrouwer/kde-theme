@@ -20,9 +20,9 @@ IntensityEffect=0
 
 [Colors:Button]
 BackgroundAlternate=241,104,111
-BackgroundNormal=38,41,46
-DecorationFocus=255,99,118
-DecorationHover=150,150,150
+BackgroundNormal=47,52,58
+DecorationFocus=63,69,77
+DecorationHover=255,99,118
 ForegroundActive=255,128,224
 ForegroundInactive=160,160,160
 ForegroundLink=46,184,230
@@ -39,8 +39,8 @@ BackgroundNormal=38,41,46
 [Colors:Selection]
 BackgroundAlternate=255,99,118
 BackgroundNormal=255,99,118
-DecorationFocus=255,99,118
-DecorationHover=150,150,150
+DecorationFocus=63,69,77
+DecorationHover=255,99,118
 ForegroundActive=255,128,224
 ForegroundInactive=160,160,160
 ForegroundLink=46,184,230
@@ -51,10 +51,10 @@ ForegroundPositive=128,255,128
 ForegroundVisited=255,102,102
 
 [Colors:Tooltip]
-BackgroundAlternate=0,0,0
-BackgroundNormal=0,0,0
-DecorationFocus=255,99,118
-DecorationHover=150,150,150
+BackgroundAlternate=46,50,56
+BackgroundNormal=46,50,56
+DecorationFocus=63,69,77
+DecorationHover=255,99,118
 ForegroundActive=255,128,224
 ForegroundInactive=225,225,225
 ForegroundLink=46,184,230
@@ -67,8 +67,8 @@ ForegroundVisited=255,102,102
 [Colors:View]
 BackgroundAlternate=38,41,46
 BackgroundNormal=38,41,46
-DecorationFocus=255,99,118
-DecorationHover=150,150,150
+DecorationFocus=63,69,77
+DecorationHover=255,99,118
 ForegroundActive=255,128,224
 ForegroundInactive=160,160,160
 ForegroundLink=46,184,230
@@ -81,8 +81,8 @@ ForegroundVisited=255,102,102
 [Colors:Window]
 BackgroundAlternate=38,41,46
 BackgroundNormal=38,41,46
-DecorationFocus=255,99,118
-DecorationHover=150,150,150
+DecorationFocus=63,69,77
+DecorationHover=255,99,118
 ForegroundActive=255,128,224
 ForegroundInactive=160,160,160
 ForegroundLink=46,184,230
@@ -98,7 +98,7 @@ Name=MoeDark
 shadeSortColumn=true
 
 [KDE]
-contrast=10
+contrast=4
 
 [WM]
 activeBackground=38,41,46
