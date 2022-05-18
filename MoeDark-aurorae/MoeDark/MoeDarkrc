@@ -15,7 +15,7 @@ Animation=1
 [Layout]
 BorderLeft=2
 BorderRight=2
-BorderBottom=7
+BorderBottom=5
 TitleEdgeTop=4
 TitleEdgeBottom=4
 TitleEdgeLeft=7
