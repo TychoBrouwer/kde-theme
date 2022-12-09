@@ -26,22 +26,22 @@ Color=255,102,102
 Color=224,77,77
 
 [Color2]
-Color=47,190,188
+Color=37,148,144
 
 [Color2Faint]
-Color=46,189,187
+Color=37,154,152
 
 [Color2Intense]
-Color=41,167,165
+Color=29,118,117
 
 [Color3]
-Color=59,175,228
+Color=48,147,186
 
 [Color3Faint]
-Color=64,192,250
+Color=50,159,199
 
 [Color3Intense]
-Color=54,158,207
+Color=44,128,167
 
 [Color4]
 Color=255,158,99
