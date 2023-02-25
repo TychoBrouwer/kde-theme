@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    sodipodi:docname="minimize.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    version="1.1"
    id="svg4428"
    height="29.866667"
@@ -350,7 +350,7 @@
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="12.374369"
+     inkscape:cy="12.462758"
      inkscape:cx="59.662137"
      inkscape:zoom="11.313708"
      inkscape:pageshadow="2"
@@ -423,10 +423,10 @@
          inkscape:connector-curvature="0" />
       <rect
          transform="scale(1,-1)"
-         style="display:inline;opacity:1;fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:117.371;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
-         width="609.40625"
+         style="display:inline;opacity:1;fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:115.617;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         width="591.32166"
          height="90.422661"
-         x="157.19679"
+         x="166.23911"
          y="-504.79352"
          ry="45.21133"
          id="path4186-7-3-3"
@@ -465,10 +465,10 @@
          id="path4186-7-3-3-6"
          ry="45.211308"
          y="-524.72247"
-         x="160.18333"
+         x="169.22568"
          height="90.422615"
-         width="609.409"
-         style="display:inline;opacity:1;fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:117.371;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         width="591.32434"
+         style="display:inline;opacity:1;fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:115.617;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
          inkscape:label="path18-1" />
     </g>
     <g
