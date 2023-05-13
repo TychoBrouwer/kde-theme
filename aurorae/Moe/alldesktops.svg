@@ -2,20 +2,20 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="119.46667"
    height="29.866667"
    id="svg4428"
    version="1.1"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14"
-   sodipodi:docname="alldesktops.svg">
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="alldesktops.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs4430">
     <linearGradient
@@ -355,10 +355,10 @@
     <filter
        inkscape:collect="always"
        id="filter5355"
-       x="-0.18225814"
-       width="1.3645163"
-       y="-0.37276217"
-       height="1.7455244">
+       x="-0.18540524"
+       width="1.370922"
+       y="-0.37919882"
+       height="1.7583976">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="1.2065266"
@@ -373,19 +373,21 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="5.8303572"
-     inkscape:cx="33.227618"
-     inkscape:cy="22.518592"
+     inkscape:cx="33.274119"
+     inkscape:cy="22.640122"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-bbox="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1031"
+     inkscape:window-height="1057"
      inkscape:window-x="0"
-     inkscape:window-y="26"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      showborder="false"
-     inkscape:showpageshadow="false">
+     inkscape:showpageshadow="false"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#eff0f1">
     <inkscape:grid
        type="xygrid"
        id="grid4436"
@@ -457,7 +459,7 @@
          cy="-460.5625"
          cx="461.86261"
          id="path4179"
-         style="opacity:1;fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:96.4512558;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         style="opacity:1;fill:#363a4f;fill-opacity:1;stroke:none;stroke-width:96.4512558;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
          rx="144.67691"
          ry="144.67685"
          transform="scale(1,-1)" />
@@ -479,7 +481,7 @@
          transform="scale(1,-1)"
          ry="144.67619"
          rx="144.67691"
-         style="opacity:1;fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:96.45103455;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         style="opacity:1;fill:#363a4f;fill-opacity:1;stroke:none;stroke-width:96.45103455;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
          id="path4179-6"
          cx="461.86261"
          cy="-466.21042" />

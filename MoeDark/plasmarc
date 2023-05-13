@@ -6,9 +6,9 @@ defaultWidth=1920
 
 [ContrastEffect]
 enabled=false
-contrast=0.15
-intensity=1.25
-saturation=9
+contrast=0.2
+intensity=1.20
+saturation=10
 
 [AdaptiveTransparency]
 enabled=true

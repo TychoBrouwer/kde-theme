@@ -350,7 +350,7 @@
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="12.551146"
+     inkscape:cy="12.374369"
      inkscape:cx="59.662137"
      inkscape:zoom="11.313708"
      inkscape:pageshadow="2"
@@ -388,7 +388,6 @@
   <g
      transform="translate(0,-1092.653)"
      id="layer1"
-     inkscape:groupmode="layer"
      inkscape:label="Layer 1">
     <g
        transform="translate(86.4,-3.2)"
@@ -423,12 +422,12 @@
          inkscape:connector-curvature="0" />
       <rect
          transform="scale(1,-1)"
-         style="display:inline;opacity:1;fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:115.618;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
-         width="591.32166"
-         height="90.422661"
-         x="166.23911"
-         y="-504.79352"
-         ry="45.21133"
+         style="display:inline;opacity:1;fill:#363a4f;fill-opacity:1;stroke:none;stroke-width:104.618;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         width="609.40625"
+         height="71.840805"
+         x="157.19679"
+         y="-493.94281"
+         ry="35.920403"
          id="path4186-7-3-3"
          inkscape:label="path18" />
     </g>
@@ -463,12 +462,12 @@
       <rect
          transform="scale(1,-1)"
          id="path4186-7-3-3-6"
-         ry="45.211308"
-         y="-524.72247"
-         x="169.22568"
-         height="90.422615"
-         width="591.32434"
-         style="display:inline;opacity:1;fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:115.617;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         ry="35.920387"
+         y="-502.11679"
+         x="160.18333"
+         height="71.840775"
+         width="609.409"
+         style="display:inline;opacity:1;fill:#363a4f;fill-opacity:1;stroke:none;stroke-width:104.618;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
          inkscape:label="path18-1" />
     </g>
     <g
