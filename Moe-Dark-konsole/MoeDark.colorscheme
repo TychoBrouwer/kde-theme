@@ -8,13 +8,13 @@ Color=46,50,56
 Color=32,34,39
 
 [Color0]
-Color=200,131,100
+Color=163,103,81
 
 [Color0Faint]
-Color=221,140,110
+Color=186,118,93
 
 [Color0Intense]
-Color=188,122,94
+Color=149,95,74
 
 [Color1]
 Color=255,89,125
@@ -96,4 +96,5 @@ Description=Moe-Dark
 FillStyle=Tile
 Opacity=0.85
 Wallpaper=
+WallpaperFlipType=NoFlip
 WallpaperOpacity=1
