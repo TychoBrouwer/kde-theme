@@ -2,12 +2,12 @@
 
 share=/usr/share
 
-rm -R $share/plasma/desktoptheme/my-theme
-rm -R $share/plasma/look-and-feel/my-theme
-rm -R $share/aurorae/themes/my-theme
-rm -R $share/sddm/themes/my-theme
-rm -R $share/Kvantum/my-theme
-rm -R $share/wallpapers/my-theme
+rm -Rf $share/plasma/desktoptheme/my-theme
+rm -Rf $share/plasma/look-and-feel/my-theme
+rm -Rf $share/aurorae/themes/my-theme
+rm -Rf $share/sddm/themes/my-theme
+rm -Rf $share/Kvantum/my-theme
+rm -Rf $share/wallpapers/my-theme
 
 cp -R color-schemes $share
 cp -R konsole $share
