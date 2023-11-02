@@ -18,7 +18,7 @@ LayoutName=org.kde.breeze.desktop
 
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__MoeDark
+theme=__aurorae__svg__my-theme
 
 [plasmarc][Theme]
 name=my-theme
