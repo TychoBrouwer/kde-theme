@@ -4,7 +4,7 @@ share=/usr/share
 
 rm -R $share/plasma/desktoptheme/my-theme
 rm -R $share/plasma/look-and-feel/my-theme
-rm -R $share/auroae/themes/my-theme
+rm -R $share/aurorae/themes/my-theme
 rm -R $share/sddm/themes/my-theme
 rm -R $share/kvantum/my-theme
 rm -R $share/wallpapers/my-theme
