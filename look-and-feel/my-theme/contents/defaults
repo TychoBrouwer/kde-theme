@@ -25,3 +25,6 @@ name=my-theme
 
 [Wallpaper]
 Image=Next
+
+[KSplash]
+Theme=my-theme
