@@ -19,11 +19,11 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=195,173,180
+BackgroundAlternate=167,140,211
 BackgroundNormal=49,54,59
-DecorationFocus=219,195,202
-DecorationHover=219,195,202
-ForegroundActive=219,195,202
+DecorationFocus=181,159,218
+DecorationHover=181,159,218
+ForegroundActive=181,159,218
 ForegroundInactive=161,169,177
 ForegroundLink=29,153,243
 ForegroundNegative=218,68,83
@@ -33,11 +33,11 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:Complementary]
-BackgroundAlternate=195,173,180
+BackgroundAlternate=167,140,211
 BackgroundNormal=42,46,50
-DecorationFocus=219,195,202
-DecorationHover=219,195,202
-ForegroundActive=219,195,202
+DecorationFocus=181,159,218
+DecorationHover=181,159,218
+ForegroundActive=181,159,218
 ForegroundInactive=161,169,177
 ForegroundLink=29,153,243
 ForegroundNegative=218,68,83
@@ -49,9 +49,9 @@ ForegroundVisited=155,89,182
 [Colors:Header]
 BackgroundAlternate=42,46,50
 BackgroundNormal=49,54,59
-DecorationFocus=219,195,202
-DecorationHover=219,195,202
-ForegroundActive=219,195,202
+DecorationFocus=181,159,218
+DecorationHover=181,159,218
+ForegroundActive=181,159,218
 ForegroundInactive=161,169,177
 ForegroundLink=29,153,243
 ForegroundNegative=218,68,83
@@ -63,9 +63,9 @@ ForegroundVisited=155,89,182
 [Colors:Header][Inactive]
 BackgroundAlternate=49,54,59
 BackgroundNormal=42,46,50
-DecorationFocus=219,195,202
-DecorationHover=219,195,202
-ForegroundActive=219,195,202
+DecorationFocus=181,159,218
+DecorationHover=181,159,218
+ForegroundActive=181,159,218
 ForegroundInactive=161,169,177
 ForegroundLink=29,153,243
 ForegroundNegative=218,68,83
@@ -75,10 +75,10 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:Selection]
-BackgroundAlternate=195,173,180
-BackgroundNormal=219,195,202
-DecorationFocus=219,195,202
-DecorationHover=219,195,202
+BackgroundAlternate=167,140,211
+BackgroundNormal=181,159,218
+DecorationFocus=181,159,218
+DecorationHover=181,159,218
 ForegroundActive=252,252,252
 ForegroundInactive=161,169,177
 ForegroundLink=253,188,75
@@ -91,9 +91,9 @@ ForegroundVisited=155,89,182
 [Colors:Tooltip]
 BackgroundAlternate=42,46,50
 BackgroundNormal=49,54,59
-DecorationFocus=219,195,202
-DecorationHover=219,195,202
-ForegroundActive=219,195,202
+DecorationFocus=181,159,218
+DecorationHover=181,159,218
+ForegroundActive=181,159,218
 ForegroundInactive=161,169,177
 ForegroundLink=29,153,243
 ForegroundNegative=218,68,83
@@ -105,9 +105,9 @@ ForegroundVisited=155,89,182
 [Colors:View]
 BackgroundAlternate=35,38,41
 BackgroundNormal=27,30,32
-DecorationFocus=219,195,202
-DecorationHover=219,195,202
-ForegroundActive=219,195,202
+DecorationFocus=181,159,218
+DecorationHover=181,159,218
+ForegroundActive=181,159,218
 ForegroundInactive=161,169,177
 ForegroundLink=29,153,243
 ForegroundNegative=218,68,83
@@ -119,9 +119,9 @@ ForegroundVisited=155,89,182
 [Colors:Window]
 BackgroundAlternate=49,54,59
 BackgroundNormal=42,46,50
-DecorationFocus=219,195,202
-DecorationHover=219,195,202
-ForegroundActive=219,195,202
+DecorationFocus=181,159,218
+DecorationHover=181,159,218
+ForegroundActive=181,159,218
 ForegroundInactive=161,169,177
 ForegroundLink=29,153,243
 ForegroundNegative=218,68,83
@@ -132,7 +132,7 @@ ForegroundVisited=155,89,182
 
 [General]
 ColorScheme=my-theme
-Name=my theme
+Name=my-theme
 shadeSortColumn=true
 
 [KDE]
