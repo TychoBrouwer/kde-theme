@@ -24,7 +24,7 @@ theme=__aurorae__svg__my-theme
 name=my-theme
 
 [Wallpaper]
-Image=3820x2160
+Image=my-theme
 
 [KSplash]
 Theme=my-theme
