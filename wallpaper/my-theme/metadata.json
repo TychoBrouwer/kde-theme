@@ -1,0 +1,12 @@
+{
+  "KPlugin": {
+    "Authors": [
+      {
+        "Name": "tychob",
+        "EMail": "tychobrouwer33@gmail.com"
+      }
+    ],
+    "Id": "my-theme",
+    "Name": "my-theme"
+  }
+}
