@@ -12,4 +12,3 @@ cp -r my-theme $share/plasma/desktoptheme/
 
 mkdir -p $share/aurorae/themes
 cp -r aurorae/my-theme $share/aurorae/themes
-
