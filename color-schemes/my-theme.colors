@@ -103,8 +103,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=255,102,102
 
 [General]
-ColorScheme=MoeDark
-Name=MoeDark
+ColorScheme=my-theme
+Name=my-theme
 TitlebarIsAccentColored=false
 shadeSortColumn=true
 
