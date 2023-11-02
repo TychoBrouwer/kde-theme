@@ -16,5 +16,3 @@ cp -R aurorae $share
 cp -R sddm $share
 cp -R wallpapers $share
 cp -R kvantum $share
-
-kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell
