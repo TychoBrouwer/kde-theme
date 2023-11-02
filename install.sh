@@ -2,9 +2,9 @@
 
 share=/usr/share
 
-cp color-schemes/MoeDark.colors $share/color-schemes
+cp color-schemes/my-theme.colors $share/color-schemes
 
-cp konsole/MoeDark.colorscheme $share/konsole
+cp konsole/my-theme.colorscheme $share/konsole
 
 cp -r look-and-feel $share/plasma/look-and-feel
 
