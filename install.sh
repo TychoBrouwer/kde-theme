@@ -7,10 +7,10 @@ sudo cp -sf $base/color-schemes/my-theme.colors $share/color-schemes
 
 sudo cp -sf $base/konsole/my-theme.colorscheme $share/konsole
 
-sudo cp -sf $base/look-and-feel/my-theme $share/plasma/look-and-feel/
+sudo cp -sfr $base/look-and-feel/my-theme $share/plasma/look-and-feel/
 
-sudo cp -sf $base/my-theme $share/plasma/desktoptheme/
+sudo cp -sfr $base/my-theme $share/plasma/desktoptheme/
 
 sudo mkdir -p $share/aurorae/themes
-sudo cp -sf $base/aurorae/my-theme $share/aurorae/themes
+sudo cp -sfr $base/aurorae/my-theme $share/aurorae/themes
 
