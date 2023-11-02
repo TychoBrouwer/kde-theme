@@ -1,9 +1,3 @@
 ACCENT: 181,159,218             #b59fda
 DARKER-ACCENT: 167,140,211      #a78cd3
-
-
-	
-
-
-
-#f4d9e1
+DARKER-SEC-ACCENT: 167,140,241  #a78cf1
