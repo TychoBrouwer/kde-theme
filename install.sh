@@ -1,14 +1,16 @@
 #!/bin/bash
 
 share=/usr/share
+base=$HOME/Repositories/kde-theme
 
-cp color-schemes/my-theme.colors $share/color-schemes
+cp -sf $base/color-schemes/my-theme.colors $share/color-schemes
 
-cp konsole/my-theme.colorscheme $share/konsole
+cp -sf $base/konsole/my-theme.colorscheme $share/konsole
 
-cp -r look-and-feel/my-theme $share/plasma/look-and-feel/
+cp -sf $base/look-and-feel/my-theme $share/plasma/look-and-feel/
 
-cp -r my-theme $share/plasma/desktoptheme/
+cp -sf $base/my-theme $share/plasma/desktoptheme/
 
 mkdir -p $share/aurorae/themes
-cp -r aurorae/my-theme $share/aurorae/themes
+cp -sf $base/aurorae/my-theme $share/aurorae/themes
+
