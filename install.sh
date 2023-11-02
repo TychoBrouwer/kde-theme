@@ -18,3 +18,5 @@ cp -r sddm/my-theme $share/sddm/themes
 
 mkdir -p $share/wallpapers
 cp -r wallpapers/my-theme $share/wallpapers
+# Set sddm theme
+# sudo sed -i 's/^Current=.*/Current=my-theme/' /etc/sddm.conf
