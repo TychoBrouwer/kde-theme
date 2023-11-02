@@ -20,4 +20,4 @@ mkdir -p $share/wallpapers
 cp -r wallpapers/my-theme $share/wallpapers
 
 mkdir -p $share/Kvantum
-cp -r Kvantum/my-theme $share/Kvantum
+cp -r kvantum/my-theme $share/Kvantum
