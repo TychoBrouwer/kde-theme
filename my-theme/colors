@@ -1,4 +1,4 @@
- [ColorEffects:Disabled]
+[ColorEffects:Disabled]
 Color=112,111,110
 ColorAmount=0
 ColorEffect=0
@@ -30,7 +30,7 @@ ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
 ForegroundNormal=255,255,255
 ForegroundPositive=128,255,128
-ForegroundVisited=255,102,102
+ForegroundVisited=244,217,225
 
 [Colors:Complementary]
 BackgroundAlternate=40,40,40
@@ -48,7 +48,7 @@ ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
 ForegroundNormal=255,255,255
 ForegroundPositive=128,255,128
-ForegroundVisited=255,102,102
+ForegroundVisited=244,217,225
 
 [Colors:Tooltip]
 BackgroundAlternate=46,50,56
@@ -62,7 +62,7 @@ ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
 ForegroundNormal=255,255,255
 ForegroundPositive=128,255,128
-ForegroundVisited=255,102,102
+ForegroundVisited=244,217,225
 
 [Colors:View]
 BackgroundAlternate=40,40,40
@@ -76,7 +76,7 @@ ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
 ForegroundNormal=254,254,254
 ForegroundPositive=128,255,128
-ForegroundVisited=255,102,102
+ForegroundVisited=244,217,225
 
 [Colors:Window]
 BackgroundAlternate=40,40,40
@@ -90,7 +90,7 @@ ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
 ForegroundNormal=255,255,255
 ForegroundPositive=128,255,128
-ForegroundVisited=255,102,102
+ForegroundVisited=244,217,225
 
 [General]
 ColorScheme=Moe-Dark
