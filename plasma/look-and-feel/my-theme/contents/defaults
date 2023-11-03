@@ -8,7 +8,7 @@ ColorScheme=my-theme
 widgetStyle=kvantum-dark
 
 [kdeglobals][Icons]
-Theme=epapirus-dark
+Theme=ePapirus-Dark
 
 [kwinrc][DesktopSwitcher]
 LayoutName=org.kde.breeze.desktop
