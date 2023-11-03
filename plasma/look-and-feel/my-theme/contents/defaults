@@ -14,7 +14,7 @@ Theme=epapirus-dark
 LayoutName=org.kde.breeze.desktop
 
 [kwinrc][WindowSwitcher]
-LayoutName=org.kde.breeze.thumbnail_grid
+LayoutName=org.kde.breeze.thumbnail-grid
 
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.kwin.aurorae
