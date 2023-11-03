@@ -126,7 +126,10 @@ var layout = {
             },
             "height": 2,
             "hiding": "normal",
-            "location": "bottom"
+            "location": "bottom",
+            "maximumLength": 131,
+            "minimumLength": 131,
+            "offset": 0
         }
     ],
     "serializationFormatVersion": "1"
