@@ -9,6 +9,7 @@ var layout = {
                 "/": {
                     "ItemGeometries-1280x800": "",
                     "ItemGeometries-1601x873": "",
+                    "ItemGeometries-2358x1312": "",
                     "ItemGeometriesHorizontal": "",
                     "formfactor": "0",
                     "immutability": "1",
@@ -82,7 +83,7 @@ var layout = {
                 {
                     "config": {
                         "/": {
-                            "PreloadWeight": "95"
+                            "PreloadWeight": "100"
                         }
                     },
                     "plugin": "org.kde.plasma.systemtray"
@@ -121,16 +122,19 @@ var layout = {
                 },
                 "/ConfigDialog": {
                     "DialogHeight": "84",
-                    "DialogWidth": "1601"
+                    "DialogWidth": "2358"
                 }
             },
             "height": 2,
             "hiding": "normal",
-            "location": "bottom"
+            "location": "bottom",
+            "maximumLength": 131,
+            "minimumLength": 131,
+            "offset": 0
         }
     ],
     "serializationFormatVersion": "1"
 }
-    ;
+;
 
 plasma.loadSerializedLayout(layout);

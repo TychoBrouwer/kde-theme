@@ -73,7 +73,7 @@ saturation=1.00
 shadowless_popup=false
 
 [GeneralColors]
-alt.base.color=#2a2e32
+alt.base.color=#1e1e1e
 base.color=#1e1e1e
 button.color=#2e2e2e
 button.text.color=#dfdfdf
@@ -90,7 +90,7 @@ mid.light.color=#ffffff1e
 progress.indicator.text.color=#dfdfdf
 text.color=#dfdfdf
 tooltip.text.color=white
-window.color=#1b1e20
+window.color=#121212
 window.text.color=#dfdfdf
 
 [Hacks]
