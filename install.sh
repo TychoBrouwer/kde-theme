@@ -16,8 +16,3 @@ cp -R aurorae $share
 cp -R sddm $share
 cp -R wallpapers $share
 cp -R Kvantum $share
-
-# Set kwinrc settings
-kwriteconfig5 --file $share/kwinrc --group TabBox --key LayoutName thumbnail_grid
-kwriteconfig5 --file $share/kwinrc --group Desktops --key Number 3
-kwriteconfig5 --file $share/ktimezonedrc --group TimeZones --key LocalZone Europe/Amsterdam

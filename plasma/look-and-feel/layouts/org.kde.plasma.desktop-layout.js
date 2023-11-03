@@ -89,20 +89,6 @@ var layout = {
                 },
                 {
                     "config": {
-                        "/": {
-                            "PreloadWeight": "65",
-                            "popupHeight": "450",
-                            "popupWidth": "396"
-                        },
-                        "/Appearance": {
-                            "dateDisplayFormat": "BesideTime",
-                            "dateFormat": "isoDate",
-                            "showSeconds": "true"
-                        },
-                        "/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
-                        }
                     },
                     "plugin": "org.kde.plasma.digitalclock"
                 },
@@ -134,6 +120,6 @@ var layout = {
     ],
     "serializationFormatVersion": "1"
 }
-    ;
+;
 
 plasma.loadSerializedLayout(layout);

@@ -22,6 +22,3 @@ theme=__aurorae__svg__my-theme
 
 [plasmarc][Theme]
 name=my-theme
-
-[KSplash]
-Theme=my-theme

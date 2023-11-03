@@ -10,4 +10,3 @@ X-KDE-PluginInfo-Name=my-theme
 X-KDE-PluginInfo-Version=1.8
 X-KDE-PluginInfo-Website=https://seduccionlinux.wordpress.com
 X-KDE-ServiceTypes=Plasma/LookAndFeel
-X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1378413,kns://plasma-themes.knsrc/api.kde-look.org/1717576,kns://aurorae.knsrc/api.kde-look.org/1437783,kns://xcursor.knsrc/api.kde-look.org/1411743,kns://wallpaper.knsrc/api.kde-look.org/1498265,kns://wallpaper.knsrc/api.kde-look.org/1884164,kns://plasmoids.knsrc/api.kde-look.org/1245902,kns://plasmoids.knsrc/api.kde-look.org/1274218

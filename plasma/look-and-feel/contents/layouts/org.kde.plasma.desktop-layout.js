@@ -134,6 +134,6 @@ var layout = {
     ],
     "serializationFormatVersion": "1"
 }
-    ;
+;
 
 plasma.loadSerializedLayout(layout);
