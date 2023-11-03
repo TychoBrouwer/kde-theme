@@ -127,7 +127,7 @@ var layout = {
             "height": 2,
             "hiding": "normal",
             "location": "bottom",
-            "maximumLength": 120,
+            "maximumLength": 9999,
             "minimumLength": 0,
             "offset": 0
         }
