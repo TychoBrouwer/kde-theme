@@ -250,7 +250,7 @@
  <path id="header-normal-top" style="opacity:0.001" d="m 90,91.999996 h -6 v 6 h 6 z"/>
  <path id="header-normal-topright" style="opacity:0.04;fill:#ffffff" d="m 96,91.999996 h -6 v 6 h 6 z"/>
  <path id="header-normal-topleft" style="opacity:0.04;fill:#ffffff" d="m 84,91.999996 h -6 v 6 h 6 z"/>
- <path id="header-normal" style="fill:#31363b" d="M 90,104 V 97.999996 H 84 V 104 Z"/>
+ <path id="header-normal" style="fill:#1e1e1e" d="M 90,104 V 97.999996 H 84 V 104 Z"/>
  <path id="header-pressed" style="opacity:0.08;fill:#ffffff" d="m 116,92 h -6 v 6 h 6 z"/>
  <rect id="expand-combo-normal" width="10" height="10" x="420" y="157"/>
  <g id="tabBarFrame-normal-bottom" transform="matrix(0,-1,0.66666667,0,-575.33334,816.0001)">

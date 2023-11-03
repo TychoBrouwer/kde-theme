@@ -73,8 +73,8 @@ saturation=1.00
 shadowless_popup=false
 
 [GeneralColors]
-alt.base.color=#383e44
-base.color=#383e44
+alt.base.color=#1e1e1e
+base.color=#1e1e1e
 button.color=#2e2e2e
 button.text.color=#dfdfdf
 dark.color=#0d0d0d
