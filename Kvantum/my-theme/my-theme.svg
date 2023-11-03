@@ -118,7 +118,7 @@
   <rect style="opacity:0;fill:#7b7b7b" width="25" height="25" x="375" y="87.5"/>
   <path style="opacity:0.00100002;fill:#ffffff" d="m 396.25,86.25 -17.5,17.5 h 17.5 z"/>
  </g>
- <rect id="dock-normal" style="fill:#2a2e32" width="30" height="30" x="355" y="870"/>
+ <rect id="dock-normal" style="fill:#31363b" width="30" height="30" x="355" y="870"/>
  <rect id="dock-focused-left" style="fill:#1b1e20" width="5" height="30" x="399.5" y="870"/>
  <rect id="dock-focused-top" style="fill:#1b1e20" width="5" height="30" x="-867.5" y="407" transform="rotate(-90)"/>
  <rect id="dock-focused-topleft" style="fill:#1b1e20" width="5" height="5" x="399.5" y="862.5"/>
@@ -136,7 +136,7 @@
  <rect id="dock-normal-bottom" style="fill:#141b1e" width="5" height="30" x="-907.5" y="355" transform="rotate(-90)"/>
  <rect id="dock-normal-bottomleft" style="fill:#141b1e" width="5" height="5" x="347.5" y="902.5"/>
  <path id="toolbar-handle" style="opacity:0.18999999;fill:#ffffff" d="m 245,94 a 5,5 0 0 1 -10,0 5,5 0 1 1 10,0 z"/>
- <rect id="dock-focused" style="fill:#2a2e32" width="30" height="30" x="407" y="870"/>
+ <rect id="dock-focused" style="fill:#31363b" width="30" height="30" x="407" y="870"/>
  <g id="radio-checked-normal" transform="translate(-0.5,7)">
   <g>
    <path style="fill:#b59fda" transform="translate(0.5,-7)" d="M 105 207 C 100.59356 207 97 210.59356 97 215 C 97.000005 219.40644 100.59356 223 105 223 C 109.40643 223 113 219.40643 113 215 C 113 210.59357 109.40643 207 105 207 z M 105 209 C 108.32567 209 111 211.67433 111 215 C 111 218.32567 108.32567 221 105 221 C 101.67432 221 99 218.32568 99 215 C 99.000003 211.67432 101.67432 209 105 209 z M 105 212 A 3 3 0 0 0 102 215 A 3 3 0 0 0 105 218 A 3 3 0 0 0 108 215 A 3 3 0 0 0 105 212 z"/>
@@ -250,7 +250,7 @@
  <path id="header-normal-top" style="opacity:0.001" d="m 90,91.999996 h -6 v 6 h 6 z"/>
  <path id="header-normal-topright" style="opacity:0.04;fill:#ffffff" d="m 96,91.999996 h -6 v 6 h 6 z"/>
  <path id="header-normal-topleft" style="opacity:0.04;fill:#ffffff" d="m 84,91.999996 h -6 v 6 h 6 z"/>
- <path id="header-normal" style="fill:#1e1e1e" d="M 90,104 V 97.999996 H 84 V 104 Z"/>
+ <path id="header-normal" style="fill:#2a2e32" d="M 90,104 V 97.999996 H 84 V 104 Z"/>
  <path id="header-pressed" style="opacity:0.08;fill:#ffffff" d="m 116,92 h -6 v 6 h 6 z"/>
  <rect id="expand-combo-normal" width="10" height="10" x="420" y="157"/>
  <g id="tabBarFrame-normal-bottom" transform="matrix(0,-1,0.66666667,0,-575.33334,816.0001)">
@@ -1364,50 +1364,50 @@
   <rect style="opacity:0.001" width="2" height="4" x="413" y="110"/>
   <path style="fill:#b59fda" d="m 413,110 h 1 v 2 h -1 z"/>
  </g>
- <rect id="dialog-normal" style="fill:#2a2e32" width="30" height="30" x="452" y="693"/>
- <rect id="dialog-normal-inactive" style="fill:#1e1e1e" width="30" height="30" x="482" y="693"/>
- <rect id="menubar-normal" style="fill:#2a2e32" width="20" height="20" x="295" y="499"/>
- <rect id="menubar-normal-left" style="fill:#2a2e32" width="20" height="5" x="499" y="-295" transform="rotate(90)"/>
- <rect id="menubar-normal-topleft" style="fill:#2a2e32" width="5" height="5" x="494" y="-295" transform="rotate(90)"/>
- <rect id="menubar-normal-top" style="fill:#2a2e32" width="20" height="5" x="295" y="494"/>
- <rect id="menubar-normal-right" style="fill:#2a2e32" width="20" height="5" x="499" y="-320" transform="rotate(90)"/>
- <rect id="menubar-normal-topright" style="fill:#2a2e32" width="5" height="5" x="494" y="-320" transform="rotate(90)"/>
+ <rect id="dialog-normal" style="fill:#31363b" width="30" height="30" x="452" y="693"/>
+ <rect id="dialog-normal-inactive" style="fill:#2a2e32" width="30" height="30" x="482" y="693"/>
+ <rect id="menubar-normal" style="fill:#31363b" width="20" height="20" x="295" y="499"/>
+ <rect id="menubar-normal-left" style="fill:#31363b" width="20" height="5" x="499" y="-295" transform="rotate(90)"/>
+ <rect id="menubar-normal-topleft" style="fill:#31363b" width="5" height="5" x="494" y="-295" transform="rotate(90)"/>
+ <rect id="menubar-normal-top" style="fill:#31363b" width="20" height="5" x="295" y="494"/>
+ <rect id="menubar-normal-right" style="fill:#31363b" width="20" height="5" x="499" y="-320" transform="rotate(90)"/>
+ <rect id="menubar-normal-topright" style="fill:#31363b" width="5" height="5" x="494" y="-320" transform="rotate(90)"/>
  <g id="menubar-normal-bottomleft" transform="translate(-10,-98)">
-  <rect style="fill:#2a2e32" width="5" height="1" x="300" y="617"/>
+  <rect style="fill:#31363b" width="5" height="1" x="300" y="617"/>
   <g id="menubar-normal-bottomleft2" transform="matrix(0.25,0,0,1,223.75,0)">
    <path style="fill:url(#linearGradient2018)" d="m 305,621 h 20 v -3 h -20 z"/>
   </g>
  </g>
  <g id="menubar-normal-bottomright" transform="translate(-10,-98)">
-  <rect style="fill:#2a2e32" width="5" height="1" x="325" y="617"/>
+  <rect style="fill:#31363b" width="5" height="1" x="325" y="617"/>
   <g id="menubar-normal-bottomright2" style="fill:#b6b6b6" transform="matrix(0.25,0,0,1,248.75,0)">
    <path style="fill:url(#linearGradient2020)" d="m 305,621 h 20 v -3 h -20 z"/>
   </g>
  </g>
  <g id="menubar-normal-bottom" transform="translate(-10,-98)">
-  <rect style="fill:#2a2e32" width="20" height="1" x="305" y="617"/>
+  <rect style="fill:#31363b" width="20" height="1" x="305" y="617"/>
   <rect style="fill:url(#linearGradient2022)" width="20" height="3" x="305" y="618"/>
  </g>
- <rect id="menubar-normal-inactive" style="fill:#1e1e1e" width="20" height="20" x="331" y="499"/>
- <rect id="menubar-normal-inactive-left" style="fill:#1e1e1e" width="20" height="5" x="499" y="-331" transform="rotate(90)"/>
- <rect id="menubar-normal-inactive-topleft" style="fill:#1e1e1e" width="5" height="5" x="494" y="-331" transform="rotate(90)"/>
- <rect id="menubar-normal-inactive-top" style="fill:#1e1e1e" width="20" height="5" x="331" y="494"/>
- <rect id="menubar-normal-inactive-right" style="fill:#1e1e1e" width="20" height="5" x="499" y="-356" transform="rotate(90)"/>
- <rect id="menubar-normal-inactive-topright" style="fill:#1e1e1e" width="5" height="5" x="494" y="-356" transform="rotate(90)"/>
+ <rect id="menubar-normal-inactive" style="fill:#2a2e32" width="20" height="20" x="331" y="499"/>
+ <rect id="menubar-normal-inactive-left" style="fill:#2a2e32" width="20" height="5" x="499" y="-331" transform="rotate(90)"/>
+ <rect id="menubar-normal-inactive-topleft" style="fill:#2a2e32" width="5" height="5" x="494" y="-331" transform="rotate(90)"/>
+ <rect id="menubar-normal-inactive-top" style="fill:#2a2e32" width="20" height="5" x="331" y="494"/>
+ <rect id="menubar-normal-inactive-right" style="fill:#2a2e32" width="20" height="5" x="499" y="-356" transform="rotate(90)"/>
+ <rect id="menubar-normal-inactive-topright" style="fill:#2a2e32" width="5" height="5" x="494" y="-356" transform="rotate(90)"/>
  <g id="menubar-normal-inactive-bottomleft" transform="translate(26.000011,-98)">
-  <rect style="fill:#1e1e1e" width="5" height="1" x="300" y="617"/>
+  <rect style="fill:#2a2e32" width="5" height="1" x="300" y="617"/>
   <g transform="matrix(0.25,0,0,1,223.75,0)">
    <path style="fill:url(#linearGradient2025)" d="m 305,621 h 20 v -3 h -20 z"/>
   </g>
  </g>
  <g id="menubar-normal-inactive-bottomright" transform="translate(26.000011,-98)">
-  <rect style="fill:#1e1e1e" width="5" height="1" x="325" y="617"/>
+  <rect style="fill:#2a2e32" width="5" height="1" x="325" y="617"/>
   <g style="fill:#b6b6b6" transform="matrix(0.25,0,0,1,248.75,0)">
    <path style="fill:url(#linearGradient3121)" d="m 305,621 h 20 v -3 h -20 z"/>
   </g>
  </g>
  <g id="menubar-normal-inactive-bottom" transform="translate(26.000011,-98)">
-  <rect style="fill:#1e1e1e" width="20" height="1" x="305" y="617"/>
+  <rect style="fill:#2a2e32" width="20" height="1" x="305" y="617"/>
   <rect style="fill:url(#linearGradient3123)" width="20" height="3" x="305" y="618"/>
  </g>
  <g id="tab-focused-bottomleft" style="opacity:0.04" transform="matrix(0.2,0,0,1,11.4,0)">
