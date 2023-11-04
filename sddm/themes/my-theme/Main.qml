@@ -209,28 +209,28 @@ PlasmaCore.ColorScope {
                 actionItemsVisible: !inputPanel.keyboardActive
                 actionItems: [
                     ActionButton {
-                        iconSource: "system-suspend"
+                        iconSource: Qt.resolvedUrl("assets/suspend.svgz")
                         text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Suspend to RAM", "Sleep")
                         fontSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.suspend()
                         enabled: sddm.canSuspend
                     },
                     ActionButton {
-                        iconSource: "system-reboot"
+                        iconSource: Qt.resolvedUrl("assets/restart.svgz")
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Restart")
                         fontSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.reboot()
                         enabled: sddm.canReboot
                     },
                     ActionButton {
-                        iconSource: "system-shutdown"
+                        iconSource: Qt.resolvedUrl("assets/shutdown.svgz")
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Shut Down")
                         fontSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.powerOff()
                         enabled: sddm.canPowerOff
                     },
                     ActionButton {
-                        iconSource: "system-user-prompt"
+                        iconSource: Qt.resolvedUrl("assets/user-prompt.svgz")
                         text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "For switching to a username and password prompt", "Other…")
                         fontSize: parseInt(config.fontSize) + 1
                         onClicked: mainStack.push(userPromptComponent)
@@ -458,21 +458,21 @@ PlasmaCore.ColorScope {
                 actionItemsVisible: !inputPanel.keyboardActive
                 actionItems: [
                     ActionButton {
-                        iconSource: Qt.resolvedUrl("icons/system-suspend.svgz")
+                        iconSource: Qt.resolvedUrl("assets/suspend.svgz")
                         text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Suspend to RAM", "Sleep")
                         fontSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.suspend()
                         enabled: sddm.canSuspend
                     },
                     ActionButton {
-                        iconSource: Qt.resolvedUrl("icons/system-reboot.svgz")
+                        iconSource: Qt.resolvedUrl("assets/restart.svgz")
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Restart")
                         fontSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.reboot()
                         enabled: sddm.canReboot
                     },
                     ActionButton {
-                        iconSource: Qt.resolvedUrl("icons/system-shutdown.svgz")
+                        iconSource: Qt.resolvedUrl("assets/shutdown.svgz")
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Shut Down")
                         fontSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.powerOff()
