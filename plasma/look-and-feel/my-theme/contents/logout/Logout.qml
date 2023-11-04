@@ -93,13 +93,13 @@ Item {
         return Math.max(color.r, color.g, color.b) > 0.5
     }
 
-    Rectangle {
-        id: backgroundRect
-        anchors.fill: parent
-        //use "black" because this is intended to look like a general darkening of the scene. a dark gray as normal background would just look too "washed out"
-        color: "black"
-        opacity: 0.5
-    }
+    // Rectangle {
+    //     id: backgroundRect
+    //     anchors.fill: parent
+    //     //use "black" because this is intended to look like a general darkening of the scene. a dark gray as normal background would just look too "washed out"
+    //     color: root.isLightColor(Kirigami.Theme.backgroundColor) ? Kirigami.Theme.backgroundColor : "black"
+    //     opacity: 0.5
+    // }
     MouseArea {
         anchors.fill: parent
         onClicked: root.cancelRequested()
