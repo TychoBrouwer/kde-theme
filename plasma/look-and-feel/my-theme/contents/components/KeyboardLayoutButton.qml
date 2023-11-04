@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2016 Marco Martin <mart@kde.org>                        *
+ *   Copyright (C) 2014 by Daniel Vrátil <dvratil@redhat.com>              *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -17,30 +17,46 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA .        *
  ***************************************************************************/
 
-import QtQuick 2.2
-import QtQuick.Layouts 1.2
+import QtQuick 2.1
+import QtQuick.Controls 1.1 as QQC
 
-import org.kde.plasma.core 2.0 as PlasmaCore
+import org.kde.plasma.components 2.0 as PlasmaComponents
 
-import "../components"
-import "timer.js" as AutoTriggerTimer
+import org.kde.plasma.workspace.keyboardlayout 1.0
 
-ActionButton {
-    property var action
-    onClicked: action()
-    Layout.alignment: Qt.AlignTop
-    iconSize: units.iconSizes.huge
-    circleVisiblity: activeFocus || containsMouse
-    circleOpacity: 0.55 // Selected option's circle is instantly visible
-    opacity: activeFocus || containsMouse ? 1 : 0.7
-    labelRendering: Text.QtRendering // Remove once we've solved Qt bug: https://bugreports.qt.io/browse/QTBUG-70138 (KDE bug: https://bugs.kde.org/show_bug.cgi?id=401644)
-    font.underline: false
-    font.pointSize: theme.defaultFont.pointSize + 1
-    Behavior on opacity {
-        OpacityAnimator {
-            duration: units.longDuration
-            easing.type: Easing.InOutQuad
-        }
+PlasmaComponents.ToolButton {
+
+    property int fontSize: config.fontSize
+
+    id: kbLayoutButton
+
+    iconName: "input-keyboard"
+    implicitWidth: minimumWidth
+    text: layout.layoutName()
+    font.pointSize: Math.max(fontSize,theme.defaultFont.pointSize)
+
+    Accessible.name: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Button to change keyboard layout", "Switch layout")
+
+    visible: layout.shouldBeVisible()
+
+    onClicked: layout.nextLayout()
+
+    KeyboardLayout {
+          id: layout
+          function nextLayout() {
+            layout.layout = (layout.layout + 1) % layout.layoutsList.length;
+          }
+
+          function shouldBeVisible() {
+            return layout.layoutsList.length > 1;
+          }
+
+          function layoutName() {
+            return (layout.isInitialized() && layout.layoutsList[layout.layout].displayName) || '';
+          }
+
+          function isInitialized() {
+            return layout.layoutsList.length > 0;
+          }
     }
-    Keys.onPressed: AutoTriggerTimer.cancelAutoTrigger();
 }
