@@ -1,10 +1,3 @@
-/*
-    SPDX-FileCopyrightText: 2014 David Edmundson <davidedmundson@kde.org>
-    SPDX-FileCopyrightText: 2014 Aleix Pol Gonzalez <aleixpol@blue-systems.com>
-
-    SPDX-License-Identifier: LGPL-2.0-or-later
-*/
-
 import QtQuick 2.15
 import QtQuick.Window 2.15
 
