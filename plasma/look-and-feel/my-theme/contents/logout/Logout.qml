@@ -42,7 +42,7 @@ Item {
         root.suspendRequested(4);
     }
 
-    property real timeout: 10
+    property real timeout: 30
     property real remainingTime: root.timeout
     property var currentAction: {
         switch (sdtype) {
@@ -96,7 +96,8 @@ Item {
     Rectangle {
         id: backgroundRect
         anchors.fill: parent
-        color: "#292e30"
+        //use "black" because this is intended to look like a general darkening of the scene. a dark gray as normal background would just look too "washed out"
+        color: "black"
         opacity: 0.5
     }
     MouseArea {
