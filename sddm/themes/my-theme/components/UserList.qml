@@ -71,7 +71,6 @@ ListView {
                 return i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Nobody logged in on that session", "Unused")
             }
 
-
             let location = undefined
             if (model.isTty) {
                 location = i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "User logged in on console number", "TTY %1", model.vtNumber)
