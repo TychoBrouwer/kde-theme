@@ -253,65 +253,65 @@ PlasmaCore.ColorScope {
 
             readonly property real zoomFactor: 3
 
-            // popEnter: Transition {
-            //     ScaleAnimator {
-            //         from: mainStack.zoomFactor
-            //         to: 1
-            //         duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
-            //         easing.type: Easing.OutCubic
-            //     }
-            //     OpacityAnimator {
-            //         from: 0
-            //         to: 1
-            //         duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
-            //         easing.type: Easing.OutCubic
-            //     }
-            // }
+            popEnter: Transition {
+                // ScaleAnimator {
+                //     from: mainStack.zoomFactor
+                //     to: 1
+                //     duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                //     easing.type: Easing.OutCubic
+                // }
+                OpacityAnimator {
+                    from: 0
+                    to: 1
+                    duration: 2* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                    easing.type: Easing.OutCubic
+                }
+            }
 
-            // popExit: Transition {
-            //     ScaleAnimator {
-            //         from: 1
-            //         to: 0
-            //         duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
-            //         easing.type: Easing.OutCubic
-            //     }
-            //     OpacityAnimator {
-            //         from: 1
-            //         to: 0
-            //         duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
-            //         easing.type: Easing.OutCubic
-            //     }
-            // }
+            popExit: Transition {
+                // ScaleAnimator {
+                //     from: 1
+                //     to: 0
+                //     duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                //     easing.type: Easing.OutCubic
+                // }
+                OpacityAnimator {
+                    from: 1
+                    to: 0
+                    duration: 2* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                    easing.type: Easing.OutCubic
+                }
+            }
 
-            // pushEnter: Transition {
-            //     ScaleAnimator {
-            //         from: 0
-            //         to: 1
-            //         duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
-            //         easing.type: Easing.OutCubic
-            //     }
-            //     OpacityAnimator {
-            //         from: 0
-            //         to: 1
-            //         duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
-            //         easing.type: Easing.OutCubic
-            //     }
-            // }
+            pushEnter: Transition {
+                // ScaleAnimator {
+                //     from: 0
+                //     to: 1
+                //     duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                //     easing.type: Easing.OutCubic
+                // }
+                OpacityAnimator {
+                    from: 0
+                    to: 1
+                    duration: 2* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                    easing.type: Easing.OutCubic
+                }
+            }
 
-            // pushExit: Transition {
-            //     ScaleAnimator {
-            //         from: 1
-            //         to: mainStack.zoomFactor
-            //         duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
-            //         easing.type: Easing.OutCubic
-            //     }
-            //     OpacityAnimator {
-            //         from: 1
-            //         to: 0
-            //         duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
-            //         easing.type: Easing.OutCubic
-            //     }
-            // }
+            pushExit: Transition {
+                // ScaleAnimator {
+                //     from: 1
+                //     to: mainStack.zoomFactor
+                //     duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                //     easing.type: Easing.OutCubic
+                // }
+                OpacityAnimator {
+                    from: 1
+                    to: 0
+                    duration: 2* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                    easing.type: Easing.OutCubic
+                }
+            }
         }
 
         Loader {
