@@ -210,14 +210,14 @@
   <path id="menuitem-normal-topright2" style="opacity:0.07;fill:#ffffff" d="M 199.99979,503.99989 C 199.99979,503.99989 200,496 192,496 v 7.99978 z"/>
  </g>
  <rect id="expand-lineedit-normal" width="10" height="10" x="430" y="147"/>
- <path id="tabframe-normal" style="fill:#1b1e20" d="m 285,584 v 32 h 32 v -32 z"/>
+ <path id="tabframe-normal" style="fill:#2a2e32" d="m 285,584 v 32 h 32 v -32 z"/>
  <g id="tabframe-normal-left" transform="matrix(0.8,0,0,0.98461538,264.0002,535.99842)">
-  <path style="fill:#1b1e20" d="M 26.25,81.2514 V 48.7516 h -5 v 32.5 z"/>
-  <path style="fill:#1b1e20" d="m 21.25,48.7516 v 32.5 h 2.49975 v -32.5 z"/>
+  <path style="fill:#2a2e32" d="M 26.25,81.2514 V 48.7516 h -5 v 32.5 z"/>
+  <path style="fill:#2a2e32" d="m 21.25,48.7516 v 32.5 h 2.49975 v -32.5 z"/>
  </g>
  <g id="tabframe-normal-topleft" transform="matrix(0.8,0,0,0.8,264.0002,546.99872)">
-  <path style="fill:#1b1e20" d="m 26.25,41.2516 h -5 v 5 h 5 z"/>
-  <path style="fill:#1b1e20" d="m 26.25,41.2516 h -5 v 5 h 2.49987 l -3e-4,-2.5 h 2.50013 z"/>
+  <path style="fill:#2a2e32" d="m 26.25,41.2516 h -5 v 5 h 5 z"/>
+  <path style="fill:#2a2e32" d="m 26.25,41.2516 h -5 v 5 h 2.49987 l -3e-4,-2.5 h 2.50013 z"/>
  </g>
  <rect id="tab-normal" style="opacity:0.001" width="2" height="2" x="9" y="642"/>
  <rect id="tab-normal-top" style="opacity:0.001" width="2" height="2" x="9" y="640"/>
