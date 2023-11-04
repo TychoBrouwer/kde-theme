@@ -278,7 +278,7 @@ PlasmaCore.ColorScope {
                 OpacityAnimator {
                     from: 1
                     to: 0
-                    duration: 2* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                    duration: 0* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
                     easing.type: Easing.OutCubic
                 }
             }
@@ -293,7 +293,7 @@ PlasmaCore.ColorScope {
                 OpacityAnimator {
                     from: 0
                     to: 1
-                    duration: 2* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                    duration: 0* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
                     easing.type: Easing.OutCubic
                 }
             }
