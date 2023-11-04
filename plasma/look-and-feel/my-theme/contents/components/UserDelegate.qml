@@ -1,6 +1,4 @@
 import QtQuick 2.8
-import QtQuick.Window 2.15
-
 import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.plasma.components 2.0 as PlasmaComponents
 
@@ -20,7 +18,7 @@ Item {
     property string iconSource
     property bool constrainText: true
     property alias nameFontSize: usernameDelegate.font.pointSize
-    property int fontSize: PlasmaCore.Theme.defaultFont.pointSize + 2
+    property int fontSize: config.fontSize
     signal clicked()
 
     property real faceSize: units.gridUnit * 7
@@ -37,6 +35,14 @@ Item {
 
     Rectangle {
         anchors.centerIn: imageSource
+        width: imageSource.width + 4 // Subtract to prevent fringing
+        height: width
+        radius: width / 2
+        color: "#0C0E15"
+    }
+    
+    Rectangle {
+        anchors.centerIn: imageSource
         width: imageSource.width - 2 // Subtract to prevent fringing
         height: width
         radius: width / 2
@@ -44,47 +50,62 @@ Item {
         color: PlasmaCore.ColorScope.backgroundColor
         opacity: 0.6
     }
-    
+
     Item {
         id: imageSource
-        anchors.top: parent.top
-        anchors.horizontalCenter: parent.horizontalCenter
-
-        Behavior on width {
+        anchors {
+            bottom: usernameDelegate.top
+            bottomMargin: units.largeSpacing
+            horizontalCenter: parent.horizontalCenter
+        }
+        Behavior on width { 
             PropertyAnimation {
                 from: faceSize
-                duration: PlasmaCore.Units.longDuration;
+                duration: units.longDuration;
             }
         }
-        width: isCurrent ? faceSize : faceSize - PlasmaCore.Units.largeSpacing
+        width: isCurrent ? faceSize : faceSize - units.largeSpacing
         height: width
+
+        //Image takes priority, taking a full path to a file, if that doesn't exist we show an icon
+        Image {
+            id: face
+            source: wrapper.avatarPath
+            sourceSize: Qt.size(faceSize, faceSize)
+            fillMode: Image.PreserveAspectCrop
+            anchors.fill: parent
+        }
 
         PlasmaCore.IconItem {
             id: faceIcon
             source: iconSource
             visible: (face.status == Image.Error || face.status == Image.Null)
             anchors.fill: parent
+            anchors.margins: units.gridUnit * 0.5 // because mockup says so...
             colorGroup: PlasmaCore.ColorScope.colorGroup
         }
     }
 
     ShaderEffect {
-        anchors.top: parent.top
-        anchors.horizontalCenter: parent.horizontalCenter
+        anchors {
+            bottom: usernameDelegate.top
+            bottomMargin: units.largeSpacing
+            horizontalCenter: parent.horizontalCenter
+        }
 
         width: imageSource.width
         height: imageSource.height
 
         supportsAtlasTextures: true
 
-        readonly property Item source: ShaderEffectSource {
+        property var source: ShaderEffectSource {
             sourceItem: imageSource
             // software rendering is just a fallback so we can accept not having a rounded avatar here
             hideSource: wrapper.GraphicsInfo.api !== GraphicsInfo.Software
             live: true // otherwise the user in focus will show a blurred avatar
         }
 
-        readonly property color colorBorder: PlasmaCore.ColorScope.textColor
+        property var colorBorder: "#00000000"
 
         //draw a circle with an antialiased border
         //innerRadius = size of the inner circle with contents
@@ -94,55 +115,51 @@ Item {
 
         //if copying into another project don't forget to connect themeChanged to update()
         //but in SDDM that's a bit pointless
-        fragmentShader: `
-            varying highp vec2 qt_TexCoord0;
-            uniform highp float qt_Opacity;
-            uniform lowp sampler2D source;
-            uniform lowp vec4 colorBorder;
+        fragmentShader: "
+                        varying highp vec2 qt_TexCoord0;
+                        uniform highp float qt_Opacity;
+                        uniform lowp sampler2D source;
 
-            const highp float blend = 0.01;
-            const highp float innerRadius = 0.47;
-            const highp float outerRadius = 0.49;
-            const lowp vec4 colorEmpty = vec4(0.0, 0.0, 0.0, 0.0);
+                        uniform lowp vec4 colorBorder;
+                        highp float blend = 0.01;
+                        highp float innerRadius = 0.47;
+                        highp float outerRadius = 0.49;
+                        lowp vec4 colorEmpty = vec4(0.0, 0.0, 0.0, 0.0);
 
-            void main() {
-                lowp vec4 colorSource = texture2D(source, qt_TexCoord0.st);
+                        void main() {
+                            lowp vec4 colorSource = texture2D(source, qt_TexCoord0.st);
 
-                highp vec2 m = qt_TexCoord0 - vec2(0.5, 0.5);
-                highp float dist = sqrt(m.x * m.x + m.y * m.y);
+                            highp vec2 m = qt_TexCoord0 - vec2(0.5, 0.5);
+                            highp float dist = sqrt(m.x * m.x + m.y * m.y);
 
-                if (dist < innerRadius)
-                    gl_FragColor = colorSource;
-                else if (dist < innerRadius + blend)
-                    gl_FragColor = mix(colorSource, colorBorder, ((dist - innerRadius) / blend));
-                else if (dist < outerRadius)
-                    gl_FragColor = colorBorder;
-                else if (dist < outerRadius + blend)
-                    gl_FragColor = mix(colorBorder, colorEmpty, ((dist - outerRadius) / blend));
-                else
-                    gl_FragColor = colorEmpty;
+                            if (dist < innerRadius)
+                                gl_FragColor = colorSource;
+                            else if (dist < innerRadius + blend)
+                                gl_FragColor = mix(colorSource, colorBorder, ((dist - innerRadius) / blend));
+                            else if (dist < outerRadius)
+                                gl_FragColor = colorBorder;
+                            else if (dist < outerRadius + blend)
+                                gl_FragColor = mix(colorBorder, colorEmpty, ((dist - outerRadius) / blend));
+                            else
+                                gl_FragColor = colorEmpty ;
 
-                gl_FragColor = gl_FragColor * qt_Opacity;
-            }
-        `
+                            gl_FragColor = gl_FragColor * qt_Opacity;
+                    }
+        "
     }
 
-    PlasmaComponents3.Label {
+    PlasmaComponents.Label {
         id: usernameDelegate
-
-        anchors.top: imageSource.bottom
-        anchors.topMargin: PlasmaCore.Units.gridUnit
-        anchors.horizontalCenter: parent.horizontalCenter
-
-        // Make it bigger than other fonts to match the scale of the avatar better
-        font.pointSize: wrapper.fontSize + 4
-
+        font.pointSize: Math.max(fontSize + 2,theme.defaultFont.pointSize + 2)
+        anchors {
+            bottom: parent.bottom
+            horizontalCenter: parent.horizontalCenter
+        }
+        height: implicitHeight // work around stupid bug in Plasma Components that sets the height
         width: constrainText ? parent.width : implicitWidth
         text: wrapper.name
         style: softwareRendering ? Text.Outline : Text.Normal
         styleColor: softwareRendering ? PlasmaCore.ColorScope.backgroundColor : "transparent" //no outline, doesn't matter
-        wrapMode: Text.WordWrap
-        maximumLineCount: wrapper.constrainText ? 3 : 1
         elide: Text.ElideRight
         horizontalAlignment: Text.AlignHCenter
         //make an indication that this has active focus, this only happens when reached with keyboard navigation
