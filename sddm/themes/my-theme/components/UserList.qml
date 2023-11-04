@@ -55,7 +55,7 @@ ListView {
 
     delegate: UserDelegate {
         avatarPath: model.icon || ""
-        iconSource: model.iconName || "user-identity"
+        iconSource: Qt.resolvedUrl("../assets/user-identity.svgz")
         fontSize: view.fontSize
         needsPassword: model.needsPassword !== undefined ? model.needsPassword : true
         vtNumber: model.vtNumber
