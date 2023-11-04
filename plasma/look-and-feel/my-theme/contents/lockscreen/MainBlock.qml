@@ -64,19 +64,19 @@ SessionManagementScreen {
             inputMethodHints: Qt.ImhHiddenText | Qt.ImhSensitiveData | Qt.ImhNoAutoUppercase | Qt.ImhNoPredictiveText
             enabled: !authenticator.graceLocked
 
-            placeholderTextColor: "#C3C7D1"
-            palette.text: "#C3C7D1"
+            // placeholderTextColor: "#C3C7D1"
+            // palette.text: "#C3C7D1"
             
-            background: Rectangle {
-                color: "#161925"
-                border.width: 1
-                border.color: "#0C0E15"
-                opacity: 0.7
-                radius: parent.width / 2
-                height: 35
-                width: passwordBox.width + 20
-                anchors.centerIn: parent
-            }
+            // background: Rectangle {
+            //     color: "#161925"
+            //     border.width: 1
+            //     border.color: "#0C0E15"
+            //     opacity: 0.7
+            //     radius: parent.width / 2
+            //     height: 35
+            //     width: passwordBox.width + 20
+            //     anchors.centerIn: parent
+            // }
 
 
             onAccepted: {

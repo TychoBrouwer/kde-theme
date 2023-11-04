@@ -24,28 +24,26 @@ Item {
     implicitHeight: iconSize + units.smallSpacing + label.implicitHeight
 
     opacity: activeFocus || containsMouse ? 1 : 0.85
-        Behavior on opacity {
-            PropertyAnimation { // OpacityAnimator makes it turn black at random intervals
-                duration: units.longDuration
-                easing.type: Easing.InOutQuad
-            }
+    Behavior on opacity {
+        PropertyAnimation { // OpacityAnimator makes it turn black at random intervals
+            duration: units.longDuration
+            easing.type: Easing.InOutQuad
+        }
     }
 
     Rectangle {
         id: iconCircle
         anchors.centerIn: icon
-        width: iconSize + units.smallSpacing
+        width: iconSize + PlasmaCore.Units.smallSpacing
         height: width
         radius: width / 2
-        color: "#08080C"
-        border.color: border_color ? border_color : "#c50ed2"
-        border.width: 1
-        opacity: activeFocus || containsMouse ? (softwareRendering ? 0.8 : 0.15) : (softwareRendering ? 0.6 : 0)
+        color: softwareRendering ?  PlasmaCore.ColorScope.backgroundColor : PlasmaCore.ColorScope.textColor
+        opacity: root.activeFocus || containsMouse ? (softwareRendering ? 0.8 : 0.15) : (softwareRendering ? 0.6 : 0)
         Behavior on opacity {
-                PropertyAnimation { // OpacityAnimator makes it turn black at random intervals
-                    duration: units.longDuration
-                    easing.type: Easing.InOutQuad
-                }
+            PropertyAnimation { // OpacityAnimator makes it turn black at random intervals
+                duration: PlasmaCore.Units.longDuration
+                easing.type: Easing.InOutQuad
+            }
         }
     }
 
