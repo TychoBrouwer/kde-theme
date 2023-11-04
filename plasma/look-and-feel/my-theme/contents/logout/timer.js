@@ -16,11 +16,10 @@ function addCancelAutoTriggerCallback(callback) {
 }
 
 function cancelAutoTrigger() {
-    callbacks.forEach(function(c) {
+    callbacks.forEach(function (c) {
         if (!c) {
             return;
         }
         c();
     });
 }
-

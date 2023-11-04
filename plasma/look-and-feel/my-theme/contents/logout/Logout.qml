@@ -1,26 +1,19 @@
-/*
-    SPDX-FileCopyrightText: 2014 Aleix Pol Gonzalez <aleixpol@blue-systems.com>
-
-    SPDX-License-Identifier: GPL-2.0-or-later
-*/
-
 import QtQuick 2.2
 import QtQuick.Layouts 1.2
-import QtQuick.Controls 2.12 as QQC2
+import QtQuick.Controls 1.1 as Controls
 
-import org.kde.plasma.components 3.0 as PlasmaComponents
-import org.kde.coreaddons 1.0 as KCoreAddons
-import org.kde.kirigami 2.20 as Kirigami
+import org.kde.plasma.core 2.0 as PlasmaCore
+import org.kde.plasma.components 2.0 as PlasmaComponents
+import org.kde.kcoreaddons 1.0 as KCoreAddons
 
 import "../components"
 import "timer.js" as AutoTriggerTimer
 
 import org.kde.plasma.private.sessions 2.0
 
-Item {
+PlasmaCore.ColorScope {
     id: root
-    Kirigami.Theme.inherit: false
-    Kirigami.Theme.colorSet: Kirigami.Theme.Complementary
+    colorGroup: PlasmaCore.Theme.ComplementaryColorGroup
     height: screenGeometry.height
     width: screenGeometry.width
 
@@ -41,7 +34,7 @@ Item {
     function hibernateRequested() {
         root.suspendRequested(4);
     }
-
+ 
     property real timeout: 30
     property real remainingTime: root.timeout
     property var currentAction: {
@@ -65,7 +58,7 @@ Item {
         includeUnusedSessions: false
     }
 
-    QQC2.Action {
+    Controls.Action {
         onTriggered: root.cancelRequested()
         shortcut: "Escape"
     }
@@ -93,20 +86,21 @@ Item {
         return Math.max(color.r, color.g, color.b) > 0.5
     }
 
-    // Rectangle {
-    //     id: backgroundRect
-    //     anchors.fill: parent
-    //     //use "black" because this is intended to look like a general darkening of the scene. a dark gray as normal background would just look too "washed out"
-    //     color: root.isLightColor(Kirigami.Theme.backgroundColor) ? Kirigami.Theme.backgroundColor : "black"
-    //     opacity: 0.5
-    // }
+    Rectangle {
+        id: backgroundRect
+        anchors.fill: parent
+        //use "black" because this is intended to look like a general darkening of the scene. a dark gray as normal background would just look too "washed out"
+        color: "#161925"
+        opacity: 0.6
+    }
     MouseArea {
         anchors.fill: parent
         onClicked: root.cancelRequested()
     }
     UserDelegate {
-        width: Kirigami.Units.gridUnit * 8
-        height: Kirigami.Units.gridUnit * 9
+        width: units.gridUnit * 7
+        height: width
+        nameFontSize: theme.defaultFont.pointSize + 2
         anchors {
             horizontalCenter: parent.horizontalCenter
             bottom: parent.verticalCenter
@@ -120,17 +114,17 @@ Item {
     ColumnLayout {
         anchors {
             top: parent.verticalCenter
-            topMargin: Kirigami.Units.gridUnit * 2
+            topMargin: units.gridUnit * 2
             horizontalCenter: parent.horizontalCenter
         }
-        spacing: Kirigami.Units.largeSpacing
+        spacing: units.largeSpacing
 
-        height: Math.max(implicitHeight, Kirigami.Units.gridUnit * 10)
-        width: Math.max(implicitWidth, Kirigami.Units.gridUnit * 16)
+        height: Math.max(implicitHeight, units.gridUnit * 10)
+        width: Math.max(implicitWidth, units.gridUnit * 16)
 
         PlasmaComponents.Label {
-            font.pointSize: Kirigami.Theme.defaultFont.pointSize + 1
-            Layout.maximumWidth: Math.max(Kirigami.Units.gridUnit * 16, logoutButtonsRow.implicitWidth)
+            font.pointSize: theme.defaultFont.pointSize + 1
+            Layout.maximumWidth: units.gridUnit * 16
             Layout.alignment: Qt.AlignHCenter
             Layout.fillWidth: true
             horizontalAlignment: Text.AlignHCenter
@@ -144,8 +138,8 @@ Item {
         }
 
         PlasmaComponents.Label {
-            font.pointSize: Kirigami.Theme.defaultFont.pointSize + 1
-            Layout.maximumWidth: Math.max(Kirigami.Units.gridUnit * 16, logoutButtonsRow.implicitWidth)
+            font.pointSize: theme.defaultFont.pointSize + 1
+            Layout.maximumWidth: units.gridUnit * 16
             Layout.alignment: Qt.AlignHCenter
             Layout.fillWidth: true
             horizontalAlignment: Text.AlignHCenter
@@ -156,37 +150,36 @@ Item {
         }
 
         RowLayout {
-            id: logoutButtonsRow
-            spacing: Kirigami.Units.gridUnit * 2
+            spacing: units.largeSpacing * 2
             Layout.alignment: Qt.AlignHCenter
             LogoutButton {
                 id: suspendButton
                 iconSource: "system-suspend"
                 text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Suspend to RAM", "Sleep")
+                border_color: "#43e97b"
                 action: root.sleepRequested
                 KeyNavigation.left: logoutButton
                 KeyNavigation.right: hibernateButton
-                KeyNavigation.down: okButton
                 visible: spdMethods.SuspendState
             }
             LogoutButton {
                 id: hibernateButton
                 iconSource: "system-suspend-hibernate"
                 text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Hibernate")
+                border_color: "#ff9966"
                 action: root.hibernateRequested
                 KeyNavigation.left: suspendButton
                 KeyNavigation.right: rebootButton
-                KeyNavigation.down: okButton
                 visible: spdMethods.HibernateState
             }
             LogoutButton {
                 id: rebootButton
                 iconSource: "system-reboot"
                 text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Restart")
+                border_color: "#c50ed2"
                 action: root.rebootRequested
                 KeyNavigation.left: hibernateButton
                 KeyNavigation.right: shutdownButton
-                KeyNavigation.down: okButton
                 focus: sdtype === ShutdownType.ShutdownTypeReboot
                 visible: maysd
             }
@@ -194,10 +187,10 @@ Item {
                 id: shutdownButton
                 iconSource: "system-shutdown"
                 text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Shut Down")
+                border_color: "#FF5E62"
                 action: root.haltRequested
                 KeyNavigation.left: rebootButton
                 KeyNavigation.right: logoutButton
-                KeyNavigation.down: okButton
                 focus: sdtype === ShutdownType.ShutdownTypeHalt
                 visible: maysd
             }
@@ -205,23 +198,23 @@ Item {
                 id: logoutButton
                 iconSource: "system-log-out"
                 text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Log Out")
+                border_color: "#83B3AE"
                 action: root.logoutRequested
                 KeyNavigation.left: shutdownButton
                 KeyNavigation.right: suspendButton
-                KeyNavigation.down: okButton
                 focus: sdtype === ShutdownType.ShutdownTypeNone
                 visible: canLogout
             }
         }
 
         PlasmaComponents.Label {
-            font.pointSize: Kirigami.Theme.defaultFont.pointSize + 1
+            font.pointSize: theme.defaultFont.pointSize + 1
             Layout.alignment: Qt.AlignHCenter
             //opacity, as visible would re-layout
             opacity: countDownTimer.running ? 1 : 0
             Behavior on opacity {
                 OpacityAnimator {
-                    duration: Kirigami.Units.longDuration
+                    duration: units.longDuration
                     easing.type: Easing.InOutQuad
                 }
             }
@@ -240,29 +233,15 @@ Item {
         RowLayout {
             Layout.alignment: Qt.AlignHCenter
             PlasmaComponents.Button {
-                id: okButton
-                implicitWidth: Kirigami.Units.gridUnit * 6
-                font.pointSize: Kirigami.Theme.defaultFont.pointSize + 1
+                font.pointSize: theme.defaultFont.pointSize + 1
                 enabled: root.currentAction !== null
                 text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "OK")
                 onClicked: root.currentAction()
-                Keys.onEnterPressed: root.currentAction()
-                Keys.onReturnPressed: root.currentAction()
-                KeyNavigation.left: cancelButton
-                KeyNavigation.right: cancelButton
-                KeyNavigation.up: suspendButton
             }
             PlasmaComponents.Button {
-                id: cancelButton
-                implicitWidth: Kirigami.Units.gridUnit * 6
-                font.pointSize: Kirigami.Theme.defaultFont.pointSize + 1
+                font.pointSize: theme.defaultFont.pointSize + 1
                 text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Cancel")
                 onClicked: root.cancelRequested()
-                Keys.onEnterPressed: root.cancelRequested()
-                Keys.onReturnPressed: root.cancelRequested()
-                KeyNavigation.left: okButton
-                KeyNavigation.right: okButton
-                KeyNavigation.up: suspendButton
             }
         }
     }
