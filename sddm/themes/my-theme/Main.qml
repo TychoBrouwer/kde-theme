@@ -256,7 +256,7 @@ PlasmaCore.ColorScope {
                 OpacityAnimator {
                     from: 0
                     to: 1
-                    duration: PlasmaCore.Units.longDuration / 4
+                    duration: PlasmaCore.Units.longDuration / 10
                     easing.type: Easing.OutCubic
                 }
             }
@@ -265,7 +265,7 @@ PlasmaCore.ColorScope {
                 OpacityAnimator {
                     from: 1
                     to: 0
-                    duration: PlasmaCore.Units.longDuration / 4
+                    duration: PlasmaCore.Units.longDuration / 10
                     easing.type: Easing.OutCubic
                 }
             }
@@ -274,7 +274,7 @@ PlasmaCore.ColorScope {
                 OpacityAnimator {
                     from: 0
                     to: 1
-                    duration: PlasmaCore.Units.longDuration / 4
+                    duration: PlasmaCore.Units.longDuration / 10
                     easing.type: Easing.OutCubic
                 }
             }
@@ -283,7 +283,7 @@ PlasmaCore.ColorScope {
                 OpacityAnimator {
                     from: 1
                     to: 0
-                    duration: PlasmaCore.Units.longDuration / 4
+                    duration: PlasmaCore.Units.longDuration / 10
                     easing.type: Easing.OutCubic
                 }
             }
