@@ -458,28 +458,28 @@ PlasmaCore.ColorScope {
                 actionItemsVisible: !inputPanel.keyboardActive
                 actionItems: [
                     ActionButton {
-                        iconSource: Qt.resolvedUrl("icons/system-suspend.svg")
+                        iconSource: Qt.resolvedUrl("icons/system-suspend.svgz")
                         text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Suspend to RAM", "Sleep")
                         fontSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.suspend()
                         enabled: sddm.canSuspend
                     },
                     ActionButton {
-                        iconSource: Qt.resolvedUrl("icons/system-reboot.svg")
+                        iconSource: Qt.resolvedUrl("icons/system-reboot.svgz")
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Restart")
                         fontSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.reboot()
                         enabled: sddm.canReboot
                     },
                     ActionButton {
-                        iconSource: Qt.resolvedUrl("icons/system-shutdown.svg")
+                        iconSource: Qt.resolvedUrl("icons/system-shutdown.svgz")
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Shut Down")
                         fontSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.powerOff()
                         enabled: sddm.canPowerOff
                     },
                     ActionButton {
-                        iconSource: Qt.resolvedUrl("assets/change_user.svg")
+                        iconSource: Qt.resolvedUrl("assets/change_user.svgz")
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "List Users")
                         fontSize: parseInt(config.fontSize) + 1
                         onClicked: mainStack.pop()
