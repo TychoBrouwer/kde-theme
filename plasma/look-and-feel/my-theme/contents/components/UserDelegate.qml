@@ -35,14 +35,6 @@ Item {
 
     Rectangle {
         anchors.centerIn: imageSource
-        width: imageSource.width + 4 // Subtract to prevent fringing
-        height: width
-        radius: width / 2
-        color: "#0C0E15"
-    }
-    
-    Rectangle {
-        anchors.centerIn: imageSource
         width: imageSource.width - 2 // Subtract to prevent fringing
         height: width
         radius: width / 2
