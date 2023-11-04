@@ -53,11 +53,9 @@ Item {
 
     Item {
         id: imageSource
-        anchors {
-            bottom: usernameDelegate.top
-            bottomMargin: units.largeSpacing
-            horizontalCenter: parent.horizontalCenter
-        }
+        anchors.top: parent.top
+        anchors.horizontalCenter: parent.horizontalCenter
+
         Behavior on width { 
             PropertyAnimation {
                 from: faceSize
@@ -66,15 +64,6 @@ Item {
         }
         width: isCurrent ? faceSize : faceSize - units.largeSpacing
         height: width
-
-        //Image takes priority, taking a full path to a file, if that doesn't exist we show an icon
-        Image {
-            id: face
-            source: wrapper.avatarPath
-            sourceSize: Qt.size(faceSize, faceSize)
-            fillMode: Image.PreserveAspectCrop
-            anchors.fill: parent
-        }
 
         PlasmaCore.IconItem {
             id: faceIcon
@@ -105,7 +94,7 @@ Item {
             live: true // otherwise the user in focus will show a blurred avatar
         }
 
-        property var colorBorder: "#00000000"
+        readonly property color colorBorder: PlasmaCore.ColorScope.textColor
 
         //draw a circle with an antialiased border
         //innerRadius = size of the inner circle with contents
@@ -115,7 +104,7 @@ Item {
 
         //if copying into another project don't forget to connect themeChanged to update()
         //but in SDDM that's a bit pointless
-        fragmentShader: "
+        fragmentShader: `
                         varying highp vec2 qt_TexCoord0;
                         uniform highp float qt_Opacity;
                         uniform lowp sampler2D source;
@@ -145,7 +134,7 @@ Item {
 
                             gl_FragColor = gl_FragColor * qt_Opacity;
                     }
-        "
+        `
     }
 
     PlasmaComponents.Label {
