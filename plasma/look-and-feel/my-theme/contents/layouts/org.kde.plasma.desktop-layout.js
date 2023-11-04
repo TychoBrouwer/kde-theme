@@ -68,7 +68,7 @@ var layout = {
                         "/General": {
                             "groupingStrategy": "0",
                             "highlightWindows": "false",
-                            "launchers": "applications:systemsettings.desktop,preferred://filemanager,applications:thorium-browser.desktop,applications:org.kde.konsole.desktop,applications:Mailspring.desktop,applications:code.desktop,applications:org.qbittorrent.qbittorrent.desktop,applications:gimp.desktop",
+                            "launchers": "applications:systemsettings.desktop,preferred://filemanager,applications:thorium-browser.desktop,applications:org.kde.konsole.desktop,applications:Mailspring.desktop,applications:code.desktop,applications:org.qbittorrent.qBittorrent.desktop,applications:gimp.desktop",
                             "wheelEnabled": "false"
                         }
                     },
