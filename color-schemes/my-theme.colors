@@ -47,7 +47,7 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:Header]
-BackgroundAlternate=42,46,50
+BackgroundAlternate=27,30,32
 BackgroundNormal=49,54,59
 DecorationFocus=181,159,218
 DecorationHover=181,159,218
@@ -89,7 +89,7 @@ ForegroundPositive=23,104,57
 ForegroundVisited=155,89,182
 
 [Colors:Tooltip]
-BackgroundAlternate=42,46,50
+BackgroundAlternate=27,30,32
 BackgroundNormal=49,54,59
 DecorationFocus=181,159,218
 DecorationHover=181,159,218
