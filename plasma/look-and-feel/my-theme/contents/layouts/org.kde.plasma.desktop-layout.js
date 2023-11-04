@@ -68,7 +68,7 @@ var layout = {
                         "/General": {
                             "groupingStrategy": "0",
                             "highlightWindows": "false",
-                            "launchers": "applications:systemsettings.desktop,applications:org.kde.discover.desktop,applications:thorium-browser.desktop,preferred://filemanager,applications:org.kde.konsole.desktop",
+                            "launchers": "applications:systemsettings.desktop,preferred://filemanager,applications:thorium-browser.desktop,applications:org.kde.konsole.desktop,applications:Mailspring.desktop,applications:code.desktop,applications:org.qbittorrent.qbittorrent.desktop,applications:gimp.desktop",
                             "wheelEnabled": "false"
                         }
                     },
