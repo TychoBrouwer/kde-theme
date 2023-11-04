@@ -68,11 +68,8 @@ Item {
     }
 
     ShaderEffect {
-        anchors {
-            bottom: usernameDelegate.top
-            bottomMargin: units.largeSpacing
-            horizontalCenter: parent.horizontalCenter
-        }
+        anchors.top: parent.top
+        anchors.horizontalCenter: parent.horizontalCenter
 
         width: imageSource.width
         height: imageSource.height
@@ -97,45 +94,46 @@ Item {
         //if copying into another project don't forget to connect themeChanged to update()
         //but in SDDM that's a bit pointless
         fragmentShader: `
-                        varying highp vec2 qt_TexCoord0;
-                        uniform highp float qt_Opacity;
-                        uniform lowp sampler2D source;
+            varying highp vec2 qt_TexCoord0;
+            uniform highp float qt_Opacity;
+            uniform lowp sampler2D source;
+            uniform lowp vec4 colorBorder;
 
-                        uniform lowp vec4 colorBorder;
-                        highp float blend = 0.01;
-                        highp float innerRadius = 0.47;
-                        highp float outerRadius = 0.49;
-                        lowp vec4 colorEmpty = vec4(0.0, 0.0, 0.0, 0.0);
+            const highp float blend = 0.01;
+            const highp float innerRadius = 0.47;
+            const highp float outerRadius = 0.49;
+            const lowp vec4 colorEmpty = vec4(0.0, 0.0, 0.0, 0.0);
 
-                        void main() {
-                            lowp vec4 colorSource = texture2D(source, qt_TexCoord0.st);
+            void main() {
+                lowp vec4 colorSource = texture2D(source, qt_TexCoord0.st);
 
-                            highp vec2 m = qt_TexCoord0 - vec2(0.5, 0.5);
-                            highp float dist = sqrt(m.x * m.x + m.y * m.y);
+                highp vec2 m = qt_TexCoord0 - vec2(0.5, 0.5);
+                highp float dist = sqrt(m.x * m.x + m.y * m.y);
 
-                            if (dist < innerRadius)
-                                gl_FragColor = colorSource;
-                            else if (dist < innerRadius + blend)
-                                gl_FragColor = mix(colorSource, colorBorder, ((dist - innerRadius) / blend));
-                            else if (dist < outerRadius)
-                                gl_FragColor = colorBorder;
-                            else if (dist < outerRadius + blend)
-                                gl_FragColor = mix(colorBorder, colorEmpty, ((dist - outerRadius) / blend));
-                            else
-                                gl_FragColor = colorEmpty ;
+                if (dist < innerRadius)
+                    gl_FragColor = colorSource;
+                else if (dist < innerRadius + blend)
+                    gl_FragColor = mix(colorSource, colorBorder, ((dist - innerRadius) / blend));
+                else if (dist < outerRadius)
+                    gl_FragColor = colorBorder;
+                else if (dist < outerRadius + blend)
+                    gl_FragColor = mix(colorBorder, colorEmpty, ((dist - outerRadius) / blend));
+                else
+                    gl_FragColor = colorEmpty;
 
-                            gl_FragColor = gl_FragColor * qt_Opacity;
-                    }
+                gl_FragColor = gl_FragColor * qt_Opacity;
+            }
         `
     }
 
     PlasmaComponents.Label {
         id: usernameDelegate
-        font.pointSize: Math.max(fontSize + 2,theme.defaultFont.pointSize + 2)
-        anchors {
-            bottom: parent.bottom
-            horizontalCenter: parent.horizontalCenter
-        }
+        font.pointSize: wrapper.fontSize + 4
+        
+        anchors.top: imageSource.bottom
+        anchors.topMargin: PlasmaCore.Units.gridUnit
+        anchors.horizontalCenter: parent.horizontalCenter
+
         height: implicitHeight // work around stupid bug in Plasma Components that sets the height
         width: constrainText ? parent.width : implicitWidth
         text: wrapper.name
