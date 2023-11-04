@@ -1,9 +1,3 @@
-/*
-    SPDX-FileCopyrightText: 2016 David Edmundson <davidedmundson@kde.org>
-
-    SPDX-License-Identifier: LGPL-2.0-or-later
-*/
-
 import QtQuick 2.15
 import QtQuick.Layouts 1.15
 
