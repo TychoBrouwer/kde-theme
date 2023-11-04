@@ -108,6 +108,7 @@ PlasmaCore.ColorScope {
                 }
             }
         }
+
         WallpaperFader {
             visible: config.type === "image"
             anchors.fill: parent
@@ -256,13 +257,13 @@ PlasmaCore.ColorScope {
                 ScaleAnimator {
                     from: mainStack.zoomFactor
                     to: 1
-                    duration: PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                    duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
                     easing.type: Easing.OutCubic
                 }
                 OpacityAnimator {
                     from: 0
                     to: 1
-                    duration: PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                    duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
                     easing.type: Easing.OutCubic
                 }
             }
@@ -271,13 +272,13 @@ PlasmaCore.ColorScope {
                 ScaleAnimator {
                     from: 1
                     to: 0
-                    duration: PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                    duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
                     easing.type: Easing.OutCubic
                 }
                 OpacityAnimator {
                     from: 1
                     to: 0
-                    duration: PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                    duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
                     easing.type: Easing.OutCubic
                 }
             }
@@ -286,13 +287,13 @@ PlasmaCore.ColorScope {
                 ScaleAnimator {
                     from: 0
                     to: 1
-                    duration: PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                    duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
                     easing.type: Easing.OutCubic
                 }
                 OpacityAnimator {
                     from: 0
                     to: 1
-                    duration: PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                    duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
                     easing.type: Easing.OutCubic
                 }
             }
@@ -301,13 +302,13 @@ PlasmaCore.ColorScope {
                 ScaleAnimator {
                     from: 1
                     to: mainStack.zoomFactor
-                    duration: PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                    duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
                     easing.type: Easing.OutCubic
                 }
                 OpacityAnimator {
                     from: 1
                     to: 0
-                    duration: PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
+                    duration: 10* PlasmaCore.Units.longDuration * (mainStack.zoomFactor / 2)
                     easing.type: Easing.OutCubic
                 }
             }

@@ -66,15 +66,6 @@ Item {
         width: isCurrent ? faceSize : faceSize - PlasmaCore.Units.largeSpacing
         height: width
 
-        //Image takes priority, taking a full path to a file, if that doesn't exist we show an icon
-        // Image {
-        //     id: face
-        //     source: wrapper.avatarPath
-        //     sourceSize: Qt.size(faceSize * Screen.devicePixelRatio, faceSize * Screen.devicePixelRatio)
-        //     fillMode: Image.PreserveAspectCrop
-        //     anchors.fill: parent
-        // }
-
         PlasmaCore.IconItem {
             id: faceIcon
             source: iconSource
