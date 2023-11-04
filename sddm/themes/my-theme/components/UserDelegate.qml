@@ -67,13 +67,13 @@ Item {
         height: width
 
         //Image takes priority, taking a full path to a file, if that doesn't exist we show an icon
-        Image {
-            id: faceIcon
-            source: iconSource
-            visible: (face.status == Image.Error || face.status == Image.Null)
-            anchors.fill: parent
-            colorGroup: PlasmaCore.ColorScope.colorGroup
-        }
+        // Image {
+        //     id: face
+        //     source: wrapper.avatarPath
+        //     sourceSize: Qt.size(faceSize * Screen.devicePixelRatio, faceSize * Screen.devicePixelRatio)
+        //     fillMode: Image.PreserveAspectCrop
+        //     anchors.fill: parent
+        // }
 
         PlasmaCore.IconItem {
             id: faceIcon
