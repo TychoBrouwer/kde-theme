@@ -9,7 +9,7 @@ import org.kde.plasma.core 2.0 as PlasmaCore
 
 Rectangle {
     id: root
-    color: "#292e30"
+    color: "#26292e"
 
     property int stage
 

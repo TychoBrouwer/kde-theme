@@ -16,5 +16,3 @@ cp -R aurorae $share
 cp -R sddm $share
 cp -R wallpapers $share
 cp -R Kvantum $share
-
-cp "$share/wallpapers/my-theme/content/images/background.jpg" "$share/sddm/themes/my-theme/background.jpg" 
