@@ -54,7 +54,7 @@ PlasmaCore.ColorScope {
         root.suspendRequested(4);
     }
  
-    property real timeout: 10
+    property real timeout: 5
     property real remainingTime: root.timeout
     property var currentAction: {
         switch (sdtype) {
