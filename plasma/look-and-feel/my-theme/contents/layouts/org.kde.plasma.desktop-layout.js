@@ -54,18 +54,6 @@ var layout = {
                             "DialogWidth": "720"
                         },
                         "/General": {
-                            "showOnlyCurrentScreen": "true"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.pager"
-                },
-                {
-                    "config": {
-                        "/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
-                        },
-                        "/General": {
                             "groupingStrategy": "0",
                             "highlightWindows": "false",
                             "launchers": "applications:systemsettings.desktop,preferred://filemanager,applications:thorium-browser.desktop,applications:org.kde.konsole.desktop,applications:Mailspring.desktop,applications:code.desktop,applications:org.qbittorrent.qBittorrent.desktop,applications:gimp.desktop",
