@@ -8,6 +8,7 @@ share=/usr/share
 [ -e "$share/sddm/themes/my-theme" ] && rm -R "$share/sddm/themes/my-theme"
 [ -e "$share/Kvantum/my-theme" ] && rm -R "$share/Kvantum/my-theme"
 [ -e "$share/wallpapers/my-theme" ] && rm -R "$share/wallpapers/my-theme"
+[ -e "$share/themes/my-theme" ] && rm -R "$share/themes/my-theme"
 
 cp -R color-schemes $share
 cp -R konsole $share
@@ -16,3 +17,4 @@ cp -R aurorae $share
 cp -R sddm $share
 cp -R wallpapers $share
 cp -R Kvantum $share
+cp -R themes $share
