@@ -19,6 +19,7 @@ cp -R sddm $share
 cp -R wallpapers $share
 cp -R Kvantum $share
 cp -R themes $share
+cp -R icons $share
 
 ln -s "$share/icons/my-theme/48x48" "$share/icons/my-theme/96x96"
 ln -s "$share/icons/my-theme/64x64" "$share/icons/my-theme/128x128"
