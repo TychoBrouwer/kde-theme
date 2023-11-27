@@ -1,6 +1,6 @@
 [Icon Theme]
-Name=Papirus-Dark
-Comment=Papirus icon theme for dark themes
+Name=my-theme
+Comment=Customized papirus icon theme for dark themes
 Inherits=breeze-dark,hicolor
 
 Example=folder
