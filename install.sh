@@ -21,12 +21,12 @@ cp -R Kvantum $share
 cp -R themes $share
 cp -R icons $share
 
-ln -s "$share/icons/my-theme/48x48" "$share/icons/my-theme/96x96"
-ln -s "$share/icons/my-theme/64x64" "$share/icons/my-theme/128x128"
 ln -s "$share/icons/my-theme/16x16" "$share/icons/my-theme/16x16@2x"
 ln -s "$share/icons/my-theme/16x16" "$share/icons/my-theme/18x18@2x"
 ln -s "$share/icons/my-theme/16x16" "$share/icons/my-theme/22x22@2x"
 ln -s "$share/icons/my-theme/16x16" "$share/icons/my-theme/24x24@2x"
 ln -s "$share/icons/my-theme/32x32" "$share/icons/my-theme/32x32@2x"
 ln -s "$share/icons/my-theme/48x48" "$share/icons/my-theme/48x48@2x"
+ln -s "$share/icons/my-theme/48x48" "$share/icons/my-theme/96x96"
 ln -s "$share/icons/my-theme/64x64" "$share/icons/my-theme/64x64@2x"
+ln -s "$share/icons/my-theme/64x64" "$share/icons/my-theme/128x128"
