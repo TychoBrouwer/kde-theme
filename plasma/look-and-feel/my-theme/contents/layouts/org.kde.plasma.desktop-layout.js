@@ -56,7 +56,7 @@ var layout = {
                         "/General": {
                             "groupingStrategy": "0",
                             "highlightWindows": "false",
-                            "launchers": "applications:systemsettings.desktop,preferred://filemanager,applications:thorium-browser.desktop,applications:org.kde.konsole.desktop,applications:Mailspring.desktop,applications:code.desktop,applications:org.qbittorrent.qBittorrent.desktop,applications:gimp.desktop",
+                            "launchers": "applications:systemsettings.desktop,preferred://filemanager,applications:thorium-browser.desktop,applications:org.kde.konsole.desktop,applications:Mailspring.desktop,applications:com.ktechpit.whatsie.desktop,applications:code.desktop,applications:org.kde.kate.desktop,applications:gimp.desktop,applications:com.github.iwalton3.jellyfin-media-player.desktop,applications:spotify.desktop,applications:steam.desktop,applications:net.lutris.Lutris.desktop,applications:minecraft-launcher.desktop",
                             "wheelEnabled": "false"
                         }
                     },
@@ -74,30 +74,6 @@ var layout = {
                         }
                     },
                     "plugin": "org.kde.plasma.systemtray"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "PreloadWeight": "65",
-                            "popupHeight": "450",
-                            "popupWidth": "396"
-                        },
-                        "/Appearance": {
-                            "dateDisplayFormat": "BesideTime",
-                            "dateFormat": "isoDate",
-                            "showSeconds": "true"
-                        },
-                        "/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.digitalclock"
-                },
-                {
-                    "config": {
-                    },
-                    "plugin": "org.kde.plasma.showdesktop"
                 }
             ],
             "config": {
